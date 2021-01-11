@@ -1,4 +1,11 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# device-code-login-test
+
+This is a basic test of device code login using oidc-provider.
+
+The module oidc-provider is not designed to use with Next.js so there are some
+adjustments to get it loading in Next.js.
+
+You can go to the root page and it will initialize a device code login.
 
 ## Getting Started
 
@@ -10,25 +17,22 @@ npm run dev
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the
+result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Not completed tasks
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+- openid-client only works in Node, see if possible to replace with Browser
+  based code?
+- build a custom login2 UI (this is the flow after you enter the device code in
+  device #2)
+- build a custom device code entry UI
+  - This is controlled by the functions userCodeInputSource, successSource,
+    userCodeConfirmSource in oidc-provider. It would be nice to make these
+    regular Next.js pages but can't find a nice way to override in
+    oidc-provider. We can change the routes, like routes.code_verification, but
+    this also seems to just change the value.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Other notes
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- oidc-provider is a little fragile in the URLs it is set up to use. Currently set up through rewrites config in next.config.js and in some wrapper code in lib/auth.js.

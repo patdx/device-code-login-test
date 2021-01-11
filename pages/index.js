@@ -1,65 +1,94 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import { Issuer } from 'openid-client';
+import { Fragment } from 'react';
+// import { OidcClient } from 'oidc-client';
+// import { useState, useEffect } from 'react';
 
-export default function Home() {
+// export default async function (req, res) {
+//   const issuer = await Issuer.discover('http://localhost:3000/api/auth');
+//   const client = new issuer.Client({
+//     client_id: 'foo',
+//     client_secret: 'bar',
+//   });
+
+//   const result = await client.deviceAuthorization();
+
+//   console.log(result.device_code);
+//   res.json({ url: result.verification_uri_complete });
+// }
+
+// const issuer = await Issuer.discover('http://localhost:3000/api/auth');
+// const client = new issuer.Client({
+//   client_id: 'foo',
+//   client_secret: 'bar',
+// });
+
+// const result = await client.deviceAuthorization();
+
+// setAuth(result);
+
+export default function Login({
+  verification_uri_complete,
+  verification_uri,
+  user_code,
+}) {
+  // const [auth, setAuth] = useState();
+
+  // useEffect(async () => {
+  //   const client = new OidcClient({
+  //     authority: 'http://localhost:3000/api/auth',
+  //     client_id: 'foo',
+  //     client_secret: 'bar',
+  //     response_type: 'device_code',
+  //     redirect_uri: 'http://localhost:3000/login',
+  //   });
+
+  //   const request = await client.createSigninRequest();
+
+  //   console.log(request);
+
+  //   setAuth(request);
+  // }, []);
+
   return (
-    <div className={styles.container}>
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
-
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
-        </div>
-      </main>
-
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
+    <Fragment>
+      <p>
+        <a href={verification_uri_complete} target="_blank">
+          Click here to sign in.
         </a>
-      </footer>
-    </div>
-  )
+      </p>
+
+      <p>
+        Or, go to{' '}
+        <a href={verification_uri} target="_blank">
+          {verification_uri}
+        </a>{' '}
+        and enter code <strong>{user_code}</strong>
+      </p>
+
+      <p>
+        Configuration:{' '}
+        <a href="/oidc/.well-known/openid-configuration">
+          /oidc/.well-known/openid-configuration
+        </a>
+      </p>
+    </Fragment>
+  );
+}
+
+export async function getServerSideProps(context) {
+  const issuer = await Issuer.discover('http://localhost:3000/oidc');
+  const client = new issuer.Client({
+    client_id: 'foo',
+    client_secret: 'bar',
+  });
+
+  const result = await client.deviceAuthorization();
+
+  return {
+    props: {
+      verification_uri_complete: result.verification_uri_complete,
+      verification_uri: result.verification_uri,
+      user_code: result.user_code,
+    },
+  };
 }
