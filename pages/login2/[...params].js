@@ -1,4 +1,4 @@
-import { provider } from '../../lib/auth';
+import { getProviderForReq } from '../../lib/auth';
 
 export default function Login2() {
   return <div>hello test</div>;
@@ -6,6 +6,7 @@ export default function Login2() {
 
 export async function getServerSideProps(context) {
   const { req, res } = context;
+  const provider = getProviderForReq(req);
 
   const details = await provider.interactionDetails(req, res);
 
