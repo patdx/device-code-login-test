@@ -80,6 +80,8 @@ export async function getServerSideProps(context) {
   const { req } = context;
   const { origin } = absoluteUrl(req);
 
+  console.log("try to load", origin);
+
   const issuer = await Issuer.discover(`${origin}/oidc`);
   const client = new issuer.Client({
     client_id: 'foo',
