@@ -87,34 +87,34 @@ export async function getServerSideProps(context) {
             options.method.toUpperCase(),
             options.url.href
           );
-          console.log('--> HEADERS %o', options.headers);
-          if (options.body) {
-            console.log('--> BODY %s', options.body);
-          }
+          // console.log('--> HEADERS %o', options.headers);
+          // if (options.body) {
+          //   console.log('--> BODY %s', options.body);
+          // }
         },
       ],
-      afterResponse: [
-        (response) => {
-          console.log(
-            '<-- %i FROM %s %s',
-            response.statusCode,
-            response.request.options.method.toUpperCase(),
-            response.request.options.url.href
-          );
-          console.log('<-- HEADERS %o', response.headers);
-          if (response.body) {
-            console.log('<-- BODY %s', response.body);
-          }
-          return response;
-        },
-      ],
+      // afterResponse: [
+      //   (response) => {
+      //     console.log(
+      //       '<-- %i FROM %s %s',
+      //       response.statusCode,
+      //       response.request.options.method.toUpperCase(),
+      //       response.request.options.url.href
+      //     );
+      //     console.log('<-- HEADERS %o', response.headers);
+      //     if (response.body) {
+      //       console.log('<-- BODY %s', response.body);
+      //     }
+      //     return response;
+      //   },
+      // ],
     },
   });
 
   const { req } = context;
   const { origin } = absoluteUrl(req);
 
-  console.log('try to load', origin);
+  console.log(`Try to load: ${origin}`);
 
   const issuer = await Issuer.discover(`${origin}/oidc`);
   const client = new issuer.Client({
