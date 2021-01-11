@@ -1,6 +1,7 @@
-import { Issuer } from 'openid-client';
+import { Issuer, custom } from 'openid-client';
 import { Fragment } from 'react';
 import absoluteUrl from 'next-absolute-url';
+
 // import { OidcClient } from 'oidc-client';
 // import { useState, useEffect } from 'react';
 
@@ -77,10 +78,43 @@ export default function Login({
 }
 
 export async function getServerSideProps(context) {
+  custom.setHttpOptionsDefaults({
+    hooks: {
+      beforeRequest: [
+        (options) => {
+          console.log(
+            '--> %s %s',
+            options.method.toUpperCase(),
+            options.url.href
+          );
+          console.log('--> HEADERS %o', options.headers);
+          if (options.body) {
+            console.log('--> BODY %s', options.body);
+          }
+        },
+      ],
+      afterResponse: [
+        (response) => {
+          console.log(
+            '<-- %i FROM %s %s',
+            response.statusCode,
+            response.request.options.method.toUpperCase(),
+            response.request.options.url.href
+          );
+          console.log('<-- HEADERS %o', response.headers);
+          if (response.body) {
+            console.log('<-- BODY %s', response.body);
+          }
+          return response;
+        },
+      ],
+    },
+  });
+
   const { req } = context;
   const { origin } = absoluteUrl(req);
 
-  console.log("try to load", origin);
+  console.log('try to load', origin);
 
   const issuer = await Issuer.discover(`${origin}/oidc`);
   const client = new issuer.Client({
