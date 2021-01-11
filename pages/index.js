@@ -1,5 +1,6 @@
 import { Issuer } from 'openid-client';
 import { Fragment } from 'react';
+import absoluteUrl from 'next-absolute-url';
 // import { OidcClient } from 'oidc-client';
 // import { useState, useEffect } from 'react';
 
@@ -76,7 +77,10 @@ export default function Login({
 }
 
 export async function getServerSideProps(context) {
-  const issuer = await Issuer.discover('http://localhost:3000/oidc');
+  const { req } = context;
+  const { origin } = absoluteUrl(req);
+
+  const issuer = await Issuer.discover(`${origin}/oidc`);
   const client = new issuer.Client({
     client_id: 'foo',
     client_secret: 'bar',

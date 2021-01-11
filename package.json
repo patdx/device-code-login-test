@@ -11,6 +11,7 @@
     "express": "^4.17.1",
     "fastify": "^3.9.2",
     "next": "10.0.5",
+    "next-absolute-url": "^1.2.2",
     "next-connect": "^0.9.1",
     "oidc-client": "^1.10.1",
     "oidc-provider": "^6.29.10",
