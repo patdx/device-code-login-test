@@ -8,8 +8,10 @@
     "start": "next start"
   },
   "dependencies": {
+    "@types/lodash": "^4.14.167",
     "express": "4.17.1",
     "fastify": "3.9.2",
+    "lodash": "^4.17.20",
     "next": "10.0.5",
     "next-absolute-url": "1.2.2",
     "next-connect": "0.9.1",
