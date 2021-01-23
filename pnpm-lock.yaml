@@ -7,7 +7,7 @@ dependencies:
   next-absolute-url: 1.2.2
   next-connect: 0.9.1
   oidc-client: 1.10.1
-  oidc-provider: 6.29.10
+  oidc-provider: 6.31.0
   openid-client: 4.2.2
   react: 17.0.1
   react-dom: 17.0.1_react@17.0.1
@@ -1349,7 +1349,7 @@ packages:
     resolution:
       integrity: sha1-Z29us8OZl8LuGsOpJP1hJHSPV40=
   /core-js/2.6.12:
-    deprecated: 'core-js@<3 is no longer maintained and not recommended for usage due to the number of issues. Please, upgrade your dependencies to the actual version of core-js@3.'
+    deprecated: core-js@<3 is no longer maintained and not recommended for usage due to the number of issues. Please, upgrade your dependencies to the actual version of core-js@3.
     dev: false
     requiresBuild: true
     resolution:
@@ -2760,6 +2760,14 @@ packages:
       node: '>=10.13.0 < 13 || >=13.7.0'
     resolution:
       integrity: sha512-L+RlDgjO0Tk+Ki6/5IXCSEnmJCV8iMFZoBuEgu2vPQJJ4zfG/k3CAqZUMKDYNRHIDyy0QidJpOvX0NgpsAqFlw==
+  /jose/2.0.4:
+    dependencies:
+      '@panva/asn1.js': 1.0.0
+    dev: false
+    engines:
+      node: '>=10.13.0 < 13 || >=13.7.0'
+    resolution:
+      integrity: sha512-EArN9f6aq1LT/fIGGsfghOnNXn4noD+3dG5lL/ljY3LcRjw1u9w+4ahu/4ahsN6N0kRLyyW6zqdoYk7LNx3+YQ==
   /js-tokens/4.0.0:
     dev: false
     resolution:
@@ -3521,33 +3529,39 @@ packages:
     dev: false
     resolution:
       integrity: sha512-/QB5Nl7c9GmT9ir1E+OVY3+yZZnuk7Qa9ZEAJqSvDq0bAyAU9KAgeKipTEfKjGdGLTeOLy9FRWuNpULMkfZydQ==
-  /oidc-provider/6.29.10:
+  /oidc-provider/6.31.0:
     dependencies:
       '@koa/cors': 3.1.0
       '@types/koa': 2.11.6
       debug: 4.3.1
       ejs: 3.1.5
       got: 9.6.0
-      jose: 2.0.3
+      jose: 2.0.4
       jsesc: 3.0.2
       koa: 2.13.1
       koa-compose: 4.1.0
       lru-cache: 6.0.0
       nanoid: 3.1.20
       object-hash: 2.1.1
-      oidc-token-hash: 5.0.0
+      oidc-token-hash: 5.0.1
       raw-body: 2.4.1
     dev: false
     engines:
       node: ^10.13.0 || >=12.0.0
     resolution:
-      integrity: sha512-jbblq9T4B0+YGUiz9HXpNhjJ7vv/AFTUleh5NfaUa6qYvIBt4nQxHhh4LtgN/Y6vxZRi/Bwz7fShOtkeNk0veA==
+      integrity: sha512-ZpNdPIrH5YkOpAbhkXgkaj9aUFBlkKcpF6B2XZwmHn476LvBJEr+gwPgz1Xf1BMgkXqkFOHL6We5kgiwYT+SHg==
   /oidc-token-hash/5.0.0:
     dev: false
     engines:
       node: ^10.13.0 || >=12.0.0
     resolution:
       integrity: sha512-8Yr4CZSv+Tn8ZkN3iN2i2w2G92mUKClp4z7EGUfdsERiYSbj7P4i/NHm72ft+aUdsiFx9UdIPSTwbyzQ6C4URg==
+  /oidc-token-hash/5.0.1:
+    dev: false
+    engines:
+      node: ^10.13.0 || >=12.0.0
+    resolution:
+      integrity: sha512-EvoOtz6FIEBzE+9q253HsLCVRiK/0doEJ2HCvvqMQb3dHZrP3WlJKYtJ55CRTw4jmYomzH4wkPuCj/I3ZvpKxQ==
   /on-finished/2.3.0:
     dependencies:
       ee-first: 1.1.1
@@ -4231,7 +4245,7 @@ packages:
     resolution:
       integrity: sha512-QEb4A76c8Mi7I3xNKXlRKQSlLBwjUV/ULFMP+G7n3/7tJZ8MG5wsZ3ucxP1Jz8Vevn6fnJsxDx9cIls+utGzPQ==
   /resolve-url/0.2.1:
-    deprecated: 'https://github.com/lydell/resolve-url#deprecated'
+    deprecated: https://github.com/lydell/resolve-url#deprecated
     dev: false
     resolution:
       integrity: sha1-LGN/53yJOv0qZj/iGqkIAGjiBSo=
@@ -5113,7 +5127,7 @@ packages:
     resolution:
       integrity: sha512-B0yRTzYdUCCn9n+F4+Gh4yIDtMQcaJsmYBDsTSG8g/OejKBodLQ2IHfN3bM7jUsRXndopT7OIXWdYqc1fjmV6g==
   /urix/0.1.0:
-    deprecated: 'Please see https://github.com/lydell/urix#deprecated'
+    deprecated: Please see https://github.com/lydell/urix#deprecated
     dev: false
     resolution:
       integrity: sha1-2pN/emLiH+wf0Y1Js1wpNQZ6bHI=
@@ -5329,7 +5343,7 @@ specifiers:
   next-absolute-url: 1.2.2
   next-connect: 0.9.1
   oidc-client: 1.10.1
-  oidc-provider: 6.29.10
+  oidc-provider: 6.31.0
   openid-client: 4.2.2
   prettier: 2.2.1
   react: 17.0.1
