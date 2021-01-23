@@ -7,7 +7,7 @@ dependencies:
   next-absolute-url: 1.2.2
   next-connect: 0.9.1
   oidc-client: 1.10.1
-  oidc-provider: 6.29.10
+  oidc-provider: 6.31.0
   openid-client: 4.2.2
   react: 17.0.1
   react-dom: 17.0.1_react@17.0.1
@@ -2760,6 +2760,14 @@ packages:
       node: '>=10.13.0 < 13 || >=13.7.0'
     resolution:
       integrity: sha512-L+RlDgjO0Tk+Ki6/5IXCSEnmJCV8iMFZoBuEgu2vPQJJ4zfG/k3CAqZUMKDYNRHIDyy0QidJpOvX0NgpsAqFlw==
+  /jose/2.0.4:
+    dependencies:
+      '@panva/asn1.js': 1.0.0
+    dev: false
+    engines:
+      node: '>=10.13.0 < 13 || >=13.7.0'
+    resolution:
+      integrity: sha512-EArN9f6aq1LT/fIGGsfghOnNXn4noD+3dG5lL/ljY3LcRjw1u9w+4ahu/4ahsN6N0kRLyyW6zqdoYk7LNx3+YQ==
   /js-tokens/4.0.0:
     dev: false
     resolution:
@@ -3521,33 +3529,39 @@ packages:
     dev: false
     resolution:
       integrity: sha512-/QB5Nl7c9GmT9ir1E+OVY3+yZZnuk7Qa9ZEAJqSvDq0bAyAU9KAgeKipTEfKjGdGLTeOLy9FRWuNpULMkfZydQ==
-  /oidc-provider/6.29.10:
+  /oidc-provider/6.31.0:
     dependencies:
       '@koa/cors': 3.1.0
       '@types/koa': 2.11.6
       debug: 4.3.1
       ejs: 3.1.5
       got: 9.6.0
-      jose: 2.0.3
+      jose: 2.0.4
       jsesc: 3.0.2
       koa: 2.13.1
       koa-compose: 4.1.0
       lru-cache: 6.0.0
       nanoid: 3.1.20
       object-hash: 2.1.1
-      oidc-token-hash: 5.0.0
+      oidc-token-hash: 5.0.1
       raw-body: 2.4.1
     dev: false
     engines:
       node: ^10.13.0 || >=12.0.0
     resolution:
-      integrity: sha512-jbblq9T4B0+YGUiz9HXpNhjJ7vv/AFTUleh5NfaUa6qYvIBt4nQxHhh4LtgN/Y6vxZRi/Bwz7fShOtkeNk0veA==
+      integrity: sha512-ZpNdPIrH5YkOpAbhkXgkaj9aUFBlkKcpF6B2XZwmHn476LvBJEr+gwPgz1Xf1BMgkXqkFOHL6We5kgiwYT+SHg==
   /oidc-token-hash/5.0.0:
     dev: false
     engines:
       node: ^10.13.0 || >=12.0.0
     resolution:
       integrity: sha512-8Yr4CZSv+Tn8ZkN3iN2i2w2G92mUKClp4z7EGUfdsERiYSbj7P4i/NHm72ft+aUdsiFx9UdIPSTwbyzQ6C4URg==
+  /oidc-token-hash/5.0.1:
+    dev: false
+    engines:
+      node: ^10.13.0 || >=12.0.0
+    resolution:
+      integrity: sha512-EvoOtz6FIEBzE+9q253HsLCVRiK/0doEJ2HCvvqMQb3dHZrP3WlJKYtJ55CRTw4jmYomzH4wkPuCj/I3ZvpKxQ==
   /on-finished/2.3.0:
     dependencies:
       ee-first: 1.1.1
@@ -5329,7 +5343,7 @@ specifiers:
   next-absolute-url: 1.2.2
   next-connect: 0.9.1
   oidc-client: 1.10.1
-  oidc-provider: 6.29.10
+  oidc-provider: 6.31.0
   openid-client: 4.2.2
   prettier: 2.2.1
   react: 17.0.1
