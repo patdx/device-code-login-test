@@ -6,7 +6,7 @@ dependencies:
   next: 10.0.5_react-dom@17.0.1+react@17.0.1
   next-absolute-url: 1.2.2
   next-connect: 0.9.1
-  oidc-client: 1.10.1
+  oidc-client: 1.11.3
   oidc-provider: 6.31.0
   openid-client: 4.2.2
   react: 17.0.1
@@ -515,6 +515,13 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-XtGIhXwF8YM8bJhGxG5kXgjkEuNGLTkoYqVE+KMR+aspr4KGYmKYg7yUe3KghyQ9yheNwLnjmzh/7+gfDBmHCQ==
+  /acorn/7.4.1:
+    dev: false
+    engines:
+      node: '>=0.4.0'
+    hasBin: true
+    resolution:
+      integrity: sha512-nQyp0o1/mNdbTO1PO6kHkwSrmgZ0MT/jCCpNiwbUjGoRN4dlBhqJtoQuCnEOKzgTVwg0ZWiCoQy6SxMebQVh8A==
   /adjust-sourcemap-loader/3.0.0:
     dependencies:
       loader-utils: 2.0.0
@@ -1348,12 +1355,11 @@ packages:
       node: '>=0.10.0'
     resolution:
       integrity: sha1-Z29us8OZl8LuGsOpJP1hJHSPV40=
-  /core-js/2.6.12:
-    deprecated: core-js@<3 is no longer maintained and not recommended for usage due to the number of issues. Please, upgrade your dependencies to the actual version of core-js@3.
+  /core-js/3.8.3:
     dev: false
     requiresBuild: true
     resolution:
-      integrity: sha512-Kb2wC0fvsWfQrgk8HU5lW6U/Lcs8+9aaYcy4ZFc6DDlo4nZ7n70dEgE5rtR0oG6ufKDUnrwfWL1mXR5ljDatrQ==
+      integrity: sha512-KPYXeVZYemC2TkNEkX/01I+7yd+nX3KddKwZ1Ww7SKWdI2wQprSgLmrTddT8nw92AjEklTsPBoSdQBhbI1bQ6Q==
   /core-util-is/1.0.2:
     dev: false
     resolution:
@@ -1408,10 +1414,10 @@ packages:
     dev: false
     resolution:
       integrity: sha512-fz4spIh+znjO2VjL+IdhEpRJ3YN6sMzITSBijk6FK2UvTqruSQW+/cCZTSNsMiZNvUeq0CqurF+dAbyiGOY6Wg==
-  /crypto-js/3.3.0:
+  /crypto-js/4.0.0:
     dev: false
     resolution:
-      integrity: sha512-DIT51nX0dCfKltpRiXV+/TVZq+Qq2NgF4644+K7Ttnla7zEzqc+kjJyiB96BHNyUTBxyjzRcZYpUdZa+QAqi6Q==
+      integrity: sha512-bzHZN8Pn+gS7DQA6n+iUmBfl0hO5DJq++QP3U6uTucDtk/0iGpXd/Gg7CGR0p8tJhofJyaKoWBuJI4eAO00BBg==
   /css-loader/4.3.0_webpack@4.44.1:
     dependencies:
       camelcase: 6.2.0
@@ -3520,15 +3526,16 @@ packages:
       node: '>=0.10.0'
     resolution:
       integrity: sha1-h6EKxMFpS9Lhy/U1kaZhQftd10c=
-  /oidc-client/1.10.1:
+  /oidc-client/1.11.3:
     dependencies:
+      acorn: 7.4.1
       base64-js: 1.5.1
-      core-js: 2.6.12
-      crypto-js: 3.3.0
-      uuid: 3.4.0
+      core-js: 3.8.3
+      crypto-js: 4.0.0
+      serialize-javascript: 4.0.0
     dev: false
     resolution:
-      integrity: sha512-/QB5Nl7c9GmT9ir1E+OVY3+yZZnuk7Qa9ZEAJqSvDq0bAyAU9KAgeKipTEfKjGdGLTeOLy9FRWuNpULMkfZydQ==
+      integrity: sha512-kMA5KRP++88nn3nxogwDA4p8jH+YwyoA1JxxVHA9YZFgYqcnK8qjc6WLEoOBheKbxQSl89r0gDh8+zscZHmGlw==
   /oidc-provider/6.31.0:
     dependencies:
       '@koa/cors': 3.1.0
@@ -5183,11 +5190,6 @@ packages:
       node: '>= 0.4.0'
     resolution:
       integrity: sha1-n5VxD1CiZ5R7LMwSR0HBAoQn5xM=
-  /uuid/3.4.0:
-    dev: false
-    hasBin: true
-    resolution:
-      integrity: sha512-HjSDRw6gZE5JMggctHBcjVak08+KEVhSIiDzFnT9S9aegmp85S/bReBVTb4QTFaRNptJ9kuYaNhnbNEOkbKb/A==
   /vary/1.1.2:
     dev: false
     engines:
@@ -5342,7 +5344,7 @@ specifiers:
   next: 10.0.5
   next-absolute-url: 1.2.2
   next-connect: 0.9.1
-  oidc-client: 1.10.1
+  oidc-client: 1.11.3
   oidc-provider: 6.31.0
   openid-client: 4.2.2
   prettier: 2.2.1
