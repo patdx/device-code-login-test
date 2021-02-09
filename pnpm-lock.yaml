@@ -1,7 +1,7 @@
 dependencies:
   '@types/lodash': 4.14.168
   express: 4.17.1
-  fastify: 3.9.2
+  fastify: 3.11.0
   lodash: 4.17.20
   next: 10.0.5_react-dom@17.0.1+react@17.0.1
   next-absolute-url: 1.2.2
@@ -1991,21 +1991,21 @@ packages:
     dev: false
     resolution:
       integrity: sha512-Utm6CdzT+6xsDk2m8S6uL8VHxNwI6Jub+e9NYTcAms28T84pTa25GJQV9j0CY0N1rM8hK4x6grpF2BQf+2qwVA==
-  /fastify-error/0.2.0:
+  /fastify-error/0.3.0:
     dev: false
     resolution:
-      integrity: sha512-zabxsBatj59ROG0fhP36zNdc5Q1/eYeH9oSF9uvfrurZf8/JKfrJbMcIGrLpLWcf89rS6L91RHWm20A/X85hcA==
+      integrity: sha512-Jm2LMTB5rsJqlS1+cmgqqM9tTs0UrlgYR7TvDT3ZgXsUI5ib1NjQlqZHf+tDK5tVPdFGwyq02wAoJtyYIRSiFA==
   /fastify-warning/0.2.0:
     dev: false
     resolution:
       integrity: sha512-s1EQguBw/9qtc1p/WTY4eq9WMRIACkj+HTcOIK1in4MV5aFaQC9ZCIt0dJ7pr5bIf4lPpHvAtP2ywpTNgs7hqw==
-  /fastify/3.9.2:
+  /fastify/3.11.0:
     dependencies:
       abstract-logging: 2.0.1
       ajv: 6.12.6
       avvio: 7.2.0
       fast-json-stringify: 2.3.1
-      fastify-error: 0.2.0
+      fastify-error: 0.3.0
       fastify-warning: 0.2.0
       find-my-way: 3.0.5
       flatstr: 1.0.12
@@ -2021,7 +2021,7 @@ packages:
     engines:
       node: '>=10.16.0'
     resolution:
-      integrity: sha512-8VEf4l6a2tdtrYQQwgT9Zh2/OvOgE4Sf6cDNMduAnKZ44CXrT0tXuH/uQkXuxqMAW27ZOy4jeexBl8CFaECntg==
+      integrity: sha512-xc0mTG3cZhBrpsHh5M+xujA/xAIfBCn6DLOWPqCbIBkt0TtfeDaXpBEtlejWp13eM8SZbyXnHcR6PJaOajbY/A==
   /fastq/1.10.0:
     dependencies:
       reusify: 1.0.4
@@ -5339,7 +5339,7 @@ packages:
 specifiers:
   '@types/lodash': 4.14.168
   express: 4.17.1
-  fastify: 3.9.2
+  fastify: 3.11.0
   lodash: 4.17.20
   next: 10.0.5
   next-absolute-url: 1.2.2
