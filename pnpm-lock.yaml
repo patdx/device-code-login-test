@@ -1,7 +1,7 @@
 dependencies:
   '@types/lodash': 4.14.168
   express: 4.17.1
-  fastify: 3.11.0
+  fastify: 3.12.0
   lodash: 4.17.20
   next: 10.0.6_react-dom@17.0.1+react@17.0.1
   next-absolute-url: 1.2.2
@@ -102,6 +102,19 @@ packages:
     dev: false
     resolution:
       integrity: sha512-jBD+G8+LWpMBBWvVcdr4QysjUE4mU/syrhN17o1u3gx0/WzJB1kwiVZAXRtWbsIPOwW8pF/YJV5+nmetPzepXg==
+  /@fastify/forwarded/1.0.0:
+    dev: false
+    engines:
+      node: '>= 10'
+    resolution:
+      integrity: sha512-VoO+6WD0aRz8bwgJZ8pkkxjq7o/782cQ1j945HWg0obZMgIadYW3Pew0+an+k1QL7IPZHM3db5WF6OP6x4ymMA==
+  /@fastify/proxy-addr/3.0.0:
+    dependencies:
+      '@fastify/forwarded': 1.0.0
+      ipaddr.js: 2.0.0
+    dev: false
+    resolution:
+      integrity: sha512-ty7wnUd/GeSqKTC2Jozsl5xGbnxUnEFC0On2/zPv/8ixywipQmVZwuWvNGnBoitJ2wixwVqofwXNua8j6Y62lQ==
   /@hapi/accept/5.0.1:
     dependencies:
       '@hapi/boom': 9.1.1
@@ -1369,8 +1382,9 @@ packages:
     dev: false
     resolution:
       integrity: sha512-s1EQguBw/9qtc1p/WTY4eq9WMRIACkj+HTcOIK1in4MV5aFaQC9ZCIt0dJ7pr5bIf4lPpHvAtP2ywpTNgs7hqw==
-  /fastify/3.11.0:
+  /fastify/3.12.0:
     dependencies:
+      '@fastify/proxy-addr': 3.0.0
       abstract-logging: 2.0.1
       ajv: 6.12.6
       avvio: 7.2.0
@@ -1381,7 +1395,6 @@ packages:
       flatstr: 1.0.12
       light-my-request: 4.4.1
       pino: 6.9.0
-      proxy-addr: 2.0.6
       readable-stream: 3.6.0
       rfdc: 1.1.4
       secure-json-parse: 2.1.0
@@ -1391,7 +1404,7 @@ packages:
     engines:
       node: '>=10.16.0'
     resolution:
-      integrity: sha512-xc0mTG3cZhBrpsHh5M+xujA/xAIfBCn6DLOWPqCbIBkt0TtfeDaXpBEtlejWp13eM8SZbyXnHcR6PJaOajbY/A==
+      integrity: sha512-xSVzP88dkwBRl/vSm8AnMB3ICOd5p0M/ea9fJWOx0WnC8x4r1WfOUUEHeyxcwlfWoiDDtsHe7DwyeSPrfmfzqQ==
   /fastq/1.10.0:
     dependencies:
       reusify: 1.0.4
@@ -1740,6 +1753,12 @@ packages:
       node: '>= 0.10'
     resolution:
       integrity: sha512-0KI/607xoxSToH7GjN1FfSbLoU0+btTicjsQSWQlh/hZykN8KpmMf7uYwPW3R+akZ6R/w18ZlXSHBYXiYUPO3g==
+  /ipaddr.js/2.0.0:
+    dev: false
+    engines:
+      node: '>= 10'
+    resolution:
+      integrity: sha512-S54H9mIj0rbxRIyrDMEuuER86LdlgUg9FSeZ8duQb6CUG2iRrA36MYVQBSprTF/ZeAwvyQ5mDGuNvIPM0BIl3w==
   /is-arrayish/0.3.2:
     dev: false
     optional: true
@@ -3498,7 +3517,7 @@ packages:
 specifiers:
   '@types/lodash': 4.14.168
   express: 4.17.1
-  fastify: 3.11.0
+  fastify: 3.12.0
   lodash: 4.17.20
   next: 10.0.6
   next-absolute-url: 1.2.2
