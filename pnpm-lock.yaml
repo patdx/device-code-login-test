@@ -5,7 +5,7 @@ dependencies:
   lodash: 4.17.20
   next: 10.0.6_react-dom@17.0.1+react@17.0.1
   next-absolute-url: 1.2.2
-  next-connect: 0.9.1
+  next-connect: 0.10.0
   oidc-client: 1.11.4
   oidc-provider: 6.31.0
   openid-client: 4.4.0
@@ -2166,12 +2166,12 @@ packages:
     dev: false
     resolution:
       integrity: sha512-Z2+LZXQTthhw2je9u4eq8QWXxXd57a6b54x9exBfQX4Dct6YxaMjcXZWNLHd9AOlCue84EsMpdSGP7wACqUnPg==
-  /next-connect/0.9.1:
+  /next-connect/0.10.0:
     dependencies:
       trouter: 3.1.0
     dev: false
     resolution:
-      integrity: sha512-CPEdciM43y9oHKxE/KVtlB+vbWwTCYqPr8/EjzoMtSRIi0s7XhdSrY6VShlACnnsJzsAr/RZnL3/xFC/vjgZUQ==
+      integrity: sha512-W8oiw8ylXdMQJQG/FtBaSbXQkf9YgqEPh5sjfFOx6BlZVVLd8UP7Cp7qZe32lVAuQEGnU/JlmWkyzBOdt6xVrw==
   /next/10.0.6_react-dom@17.0.1+react@17.0.1:
     dependencies:
       '@ampproject/toolbox-optimizer': 2.7.1-alpha.0
@@ -3521,7 +3521,7 @@ specifiers:
   lodash: 4.17.20
   next: 10.0.6
   next-absolute-url: 1.2.2
-  next-connect: 0.9.1
+  next-connect: 0.10.0
   oidc-client: 1.11.4
   oidc-provider: 6.31.0
   openid-client: 4.4.0
