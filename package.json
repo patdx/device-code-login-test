@@ -14,7 +14,7 @@
     "lodash": "4.17.20",
     "next": "10.0.6",
     "next-absolute-url": "1.2.2",
-    "next-connect": "0.9.1",
+    "next-connect": "0.10.0",
     "oidc-client": "1.11.4",
     "oidc-provider": "6.31.0",
     "openid-client": "4.4.0",
