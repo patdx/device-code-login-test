@@ -3,7 +3,7 @@ dependencies:
   express: 4.17.1
   fastify: 3.12.0
   lodash: 4.17.20
-  next: 10.0.6_react-dom@17.0.1+react@17.0.1
+  next: 10.0.7_react-dom@17.0.1+react@17.0.1
   next-absolute-url: 1.2.2
   next-connect: 0.10.0
   oidc-client: 1.11.4
@@ -15,61 +15,6 @@ devDependencies:
   prettier: 2.2.1
 lockfileVersion: 5.2
 packages:
-  /@ampproject/toolbox-core/2.7.4:
-    dependencies:
-      cross-fetch: 3.0.6
-      lru-cache: 6.0.0
-    dev: false
-    resolution:
-      integrity: sha512-qpBhcS4urB7IKc+jx2kksN7BuvvwCo7Y3IstapWo+EW+COY5EYAUwb2pil37v3TsaqHKgX//NloFP1SKzGZAnw==
-  /@ampproject/toolbox-optimizer/2.7.1-alpha.0:
-    dependencies:
-      '@ampproject/toolbox-core': 2.7.4
-      '@ampproject/toolbox-runtime-version': 2.7.4
-      '@ampproject/toolbox-script-csp': 2.5.4
-      '@ampproject/toolbox-validator-rules': 2.7.4
-      abort-controller: 3.0.0
-      cross-fetch: 3.0.6
-      cssnano-simple: 1.2.1
-      dom-serializer: 1.1.0
-      domhandler: 3.3.0
-      domutils: 2.4.2
-      htmlparser2: 5.0.1
-      https-proxy-agent: 5.0.0
-      lru-cache: 6.0.0
-      node-fetch: 2.6.1
-      normalize-html-whitespace: 1.0.0
-      postcss: 7.0.32
-      postcss-safe-parser: 4.0.2
-      terser: 5.5.1
-    dev: false
-    peerDependencies:
-      jimp: '*'
-      probe-image-size: '*'
-    peerDependenciesMeta:
-      jimp:
-        optional: true
-      probe-image-size:
-        optional: true
-    requiresBuild: true
-    resolution:
-      integrity: sha512-WGPZKVQvHgNYJk1XVJCCmY+NVGTGJtvn0OALDyiegN4FJWOcilQUhCIcjMkZN59u1flz/u+sEKccM5qsROqVyg==
-  /@ampproject/toolbox-runtime-version/2.7.4:
-    dependencies:
-      '@ampproject/toolbox-core': 2.7.4
-    dev: false
-    resolution:
-      integrity: sha512-SAdOUOERp42thVNWaBJlnFvFVvnacMVnz5z9LyUZHSnoL1EqrAW5Sz5jv+Ly+gkA8NYsEaUxAdSCBAzE9Uzb4Q==
-  /@ampproject/toolbox-script-csp/2.5.4:
-    dev: false
-    resolution:
-      integrity: sha512-+knTYetI5nWllRZ9wFcj7mYxelkiiFVRAAW/hl0ad8EnKHMH82tRlk40CapEnUHhp6Er5sCYkumQ8dngs3Q4zQ==
-  /@ampproject/toolbox-validator-rules/2.7.4:
-    dependencies:
-      cross-fetch: 3.0.6
-    dev: false
-    resolution:
-      integrity: sha512-z3JRcpIZLLdVC9XVe7YTZuB3a/eR9s2SjElYB9AWRdyJyL5Jt7+pGNv4Uwh1uHVoBXsWEVQzNOWSNtrO3mSwZA==
   /@babel/code-frame/7.12.11:
     dependencies:
       '@babel/highlight': 7.10.4
@@ -140,15 +85,15 @@ packages:
       node: '>= 8.0.0'
     resolution:
       integrity: sha512-7ulRC1da/rBa6kj6P4g2aJfnET3z8Uf3SWu60cjbtxTA5g8lxRdX/Bd2P92EagGwwAhANeNw8T8if99rJliR6Q==
-  /@next/env/10.0.6:
+  /@next/env/10.0.7:
     dev: false
     resolution:
-      integrity: sha512-++zgrcSL9SprjWKBbO3YuVj/8CTmxJl+zLErW/Kbr2VCT0u12SrBcMKvD236lEGs5/qUgeBfU3Dvmr6MASWrtA==
-  /@next/polyfill-module/10.0.6:
+      integrity: sha512-/vnz2SL/mk3Tei58WfRtVnvz5xHmAqcBmZL5sTBEy1CZG6OtZGNx0qAFCjtVkeJ5m1Bh4Ut+WFh/RF333wx8Sg==
+  /@next/polyfill-module/10.0.7:
     dev: false
     resolution:
-      integrity: sha512-Sk3HYFxiI3AyIhw7Nnc5un//duCthAP2XtPb4N1SamymOU2QSb8I1zkcsxVIlZRvftdXikQQgra6Ck2zfJRxpA==
-  /@next/react-dev-overlay/10.0.6_react-dom@17.0.1+react@17.0.1:
+      integrity: sha512-HxqzRpoSgmZP0kRIWwH+e0SgtAXqJ0VkYtwWcsQFED8+xF4Eqn+7Twyp4uE6hutC8gr8IFSFqH+DEYhRtg1ltQ==
+  /@next/react-dev-overlay/10.0.7_react-dom@17.0.1+react@17.0.1:
     dependencies:
       '@babel/code-frame': 7.12.11
       anser: 1.4.9
@@ -168,8 +113,8 @@ packages:
       react: ^16.9.0 || ^17
       react-dom: ^16.9.0 || ^17
     resolution:
-      integrity: sha512-KbxpyVT6gr1KZ7JoFDKGNM0hK7CxPkIC14j/gYgR6qSOhxGs3GEIBScJRXfKD7LNPMgVgQtaJlBYlEJ7aQu1xg==
-  /@next/react-refresh-utils/10.0.6_react-refresh@0.8.3:
+      integrity: sha512-yq71MDHVqN2N+IqOvZDiFsMpQrBcymrdpTx1ShhAADX7cWQvW4dhcIir4BbfrS10vS1LLz/3a8uKZkGdNoJj3w==
+  /@next/react-refresh-utils/10.0.7_react-refresh@0.8.3:
     dependencies:
       react-refresh: 0.8.3
     dev: false
@@ -180,7 +125,7 @@ packages:
       webpack:
         optional: true
     resolution:
-      integrity: sha512-4BF+8PyzDcYpumQJ22yBUjVP/CL2KLPM+3K3ZQb61HvmIptB/t+jFnH2ew8S7ORQNu/caVQC6wP5wAfOtpJNsg==
+      integrity: sha512-d/71vtQglv6m7sh4W1O9drc2hYti7UnAdEXfBLZAS354g2S80lvCRGIhbDrMx4w0rpShoxBIZboE2++LihAESg==
   /@opentelemetry/api/0.14.0:
     dependencies:
       '@opentelemetry/context-base': 0.14.0
@@ -361,14 +306,6 @@ packages:
     dev: false
     resolution:
       integrity: sha512-MoJhSQreaVoL+/hurAZzIm8wafFR6ajiTM1m4A0kv6AGeVBl4r4pOV8bGFrjjq1sGxDTnCoF8i22o0/aE5XCyA==
-  /abort-controller/3.0.0:
-    dependencies:
-      event-target-shim: 5.0.1
-    dev: false
-    engines:
-      node: '>=6.5'
-    resolution:
-      integrity: sha512-h8lQ8tacZYnR3vNQTgibj+tODHI5/+l06Au2Pcriv/Gmet0eaj4TwWH41sO9wnHDiQsEj19q0drzdWdeAHtweg==
   /abstract-logging/2.0.1:
     dev: false
     resolution:
@@ -389,14 +326,6 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-nQyp0o1/mNdbTO1PO6kHkwSrmgZ0MT/jCCpNiwbUjGoRN4dlBhqJtoQuCnEOKzgTVwg0ZWiCoQy6SxMebQVh8A==
-  /agent-base/6.0.2:
-    dependencies:
-      debug: 4.3.1
-    dev: false
-    engines:
-      node: '>= 6.0.0'
-    resolution:
-      integrity: sha512-RZNwNclF7+MS/8bDg70amg32dyeZGZxiDuQmZxKLAlQjr3jGyLx+4Kkk58UO7D2QdgFIQCovuSuZESne6RG6XQ==
   /aggregate-error/3.1.0:
     dependencies:
       clean-stack: 2.2.0
@@ -671,10 +600,6 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-UXhDrwqsNcpTYJBTZsbGATDxZbiVDsx6UjpmRUmtnP10pr8wAYr5LgFoEFw9ixriQH2mv/NX2SfGzE/o8GndLA==
-  /buffer-from/1.1.1:
-    dev: false
-    resolution:
-      integrity: sha512-MQcXEUbCKtEo7bhqEs6560Hyd4XaovZlO/k9V3hjVUF/zwW7KBVdSK4gIt/bzwS9MbR5qob+F5jusZsb0YQK2A==
   /buffer-xor/1.0.3:
     dev: false
     resolution:
@@ -870,10 +795,6 @@ packages:
     dev: false
     resolution:
       integrity: sha512-puCDz0CzydiSYOrnXpz/PKd69zRrribezjtE9yd4zvytoRc8+RY/KJPvtPFKZS3E3wP6neGyMe0vOTlHO5L3Pw==
-  /commander/2.20.3:
-    dev: false
-    resolution:
-      integrity: sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ==
   /commondir/1.0.1:
     dev: false
     resolution:
@@ -977,12 +898,6 @@ packages:
     dev: false
     resolution:
       integrity: sha512-MJG9liiZ+ogc4TzUwuvbER1JRdgvUFSB5+VR/g5h82fGaIRWMWddtKBHi7/sVhfjQZ6SehlyhvQYrcYkaUIpLg==
-  /cross-fetch/3.0.6:
-    dependencies:
-      node-fetch: 2.6.1
-    dev: false
-    resolution:
-      integrity: sha512-KBPUbqgFjzWlVcURG+Svp9TlhA5uliYtiNx/0r8nv0pdypeQCRJ9IaSIc3q/x3q8t3F75cHuwxVql1HFGHCNJQ==
   /crypto-browserify/3.12.0:
     dependencies:
       browserify-cipher: 1.0.1
@@ -1007,13 +922,6 @@ packages:
     dev: false
     resolution:
       integrity: sha1-QuJ9T6BK4y+TGktNQZH6nN3ul8s=
-  /cssnano-preset-simple/1.2.1:
-    dependencies:
-      caniuse-lite: 1.0.30001185
-      postcss: 7.0.35
-    dev: false
-    resolution:
-      integrity: sha512-B2KahOIFTV6dw5Ioy9jHshTh/vAYNnUB2enyWRgnAEg3oJBjI/035ExpePaMqS2SwpbH7gCgvQqwpMBH6hTJSw==
   /cssnano-preset-simple/1.2.2:
     dependencies:
       caniuse-lite: 1.0.30001185
@@ -1021,13 +929,6 @@ packages:
     dev: false
     resolution:
       integrity: sha512-gtvrcRSGtP3hA/wS8mFVinFnQdEsEpm3v4I/s/KmNjpdWaThV/4E5EojAzFXxyT5OCSRPLlHR9iQexAqKHlhGQ==
-  /cssnano-simple/1.2.1:
-    dependencies:
-      cssnano-preset-simple: 1.2.1
-      postcss: 7.0.35
-    dev: false
-    resolution:
-      integrity: sha512-9vOyjw8Dj/T12kIOnXPZ5VnEIo6F3YMaIn0wqJXmn277R58cWpI3AvtdlCBtohX7VAUNYcyk2d0dKcXXkb5I6Q==
   /cssnano-simple/1.2.2:
     dependencies:
       cssnano-preset-simple: 1.2.2
@@ -1161,14 +1062,6 @@ packages:
     dev: false
     resolution:
       integrity: sha512-kqag/Nl+f3GwyK25fhUMYj81BUOrZ9IuJsjIcDE5icNM9FJHAVm3VcUDxdLPoQtTuUylWm6ZIknYJwwaPxsUzg==
-  /dom-serializer/1.1.0:
-    dependencies:
-      domelementtype: 2.1.0
-      domhandler: 3.3.0
-      entities: 2.1.0
-    dev: false
-    resolution:
-      integrity: sha512-ox7bvGXt2n+uLWtCRLybYx60IrOlWL/aCebWJk1T0d4m3y2tzf4U3ij9wBMUb6YJZpz06HCCYuyCDveE2xXmzQ==
   /domain-browser/1.2.0:
     dev: false
     engines:
@@ -1176,26 +1069,6 @@ packages:
       npm: '>=1.2'
     resolution:
       integrity: sha512-jnjyiM6eRyZl2H+W8Q/zLMA481hzi0eszAaBUzIVnmYVDBbnLxVNnfu1HgEBvCbL+71FrxMl3E6lpKH7Ge3OXA==
-  /domelementtype/2.1.0:
-    dev: false
-    resolution:
-      integrity: sha512-LsTgx/L5VpD+Q8lmsXSHW2WpA+eBlZ9HPf3erD1IoPF00/3JKHZ3BknUVA2QGDNu69ZNmyFmCWBSO45XjYKC5w==
-  /domhandler/3.3.0:
-    dependencies:
-      domelementtype: 2.1.0
-    dev: false
-    engines:
-      node: '>= 4'
-    resolution:
-      integrity: sha512-J1C5rIANUbuYK+FuFL98650rihynUOEzRLxW+90bKZRWB6A1X1Tf82GxR1qAWLyfNPRvjqfip3Q5tdYlmAa9lA==
-  /domutils/2.4.2:
-    dependencies:
-      dom-serializer: 1.1.0
-      domelementtype: 2.1.0
-      domhandler: 3.3.0
-    dev: false
-    resolution:
-      integrity: sha512-NKbgaM8ZJOecTZsIzW5gSuplsX2IWW2mIK7xVr8hTQF2v1CJWTmLZ1HOCh5sH+IzVPAGE5IucooOkvwBRAdowA==
   /duplexer3/0.1.4:
     dev: false
     resolution:
@@ -1247,10 +1120,6 @@ packages:
     dev: false
     resolution:
       integrity: sha512-+uw1inIHVPQoaVuHzRyXd21icM+cnt4CzD5rW+NC1wjOUSTOs+Te7FOv7AhN7vS9x/oIyhLP5PR1H+phQAHu5Q==
-  /entities/2.1.0:
-    dev: false
-    resolution:
-      integrity: sha512-hCx1oky9PFrJ611mf0ifBLBRW8lUUVRlFolb5gWRfIELabBlbp9xZvrqZLZAs+NxFnbfQoeGd8wDkygjg7U85w==
   /escalade/3.1.1:
     dev: false
     engines:
@@ -1279,12 +1148,6 @@ packages:
       node: '>= 0.6'
     resolution:
       integrity: sha1-Qa4u62XvpiJorr/qg6x9eSmbCIc=
-  /event-target-shim/5.0.1:
-    dev: false
-    engines:
-      node: '>=6'
-    resolution:
-      integrity: sha512-i/2XbnSz/uxRCU6+NdVJgKWDTM427+MqYbkQzD321DuCQJUqOuJKIA0IM2+W2xtYHdKOmZ4dR6fExsd4SXL+WQ==
   /events/3.2.0:
     dev: false
     engines:
@@ -1632,15 +1495,6 @@ packages:
     dev: false
     resolution:
       integrity: sha1-0nRXAQJabHdabFRXk+1QL8DGSaE=
-  /htmlparser2/5.0.1:
-    dependencies:
-      domelementtype: 2.1.0
-      domhandler: 3.3.0
-      domutils: 2.4.2
-      entities: 2.1.0
-    dev: false
-    resolution:
-      integrity: sha512-vKZZra6CSe9qsJzh0BjBGXo8dvzNsq/oGvsjfRdOrrryfeD9UOBEEQdeoqCRmKZchF5h2zOBMQ6YuQ0uRUmdbQ==
   /http-assert/1.4.1:
     dependencies:
       deep-equal: 1.0.1
@@ -1703,15 +1557,6 @@ packages:
     dev: false
     resolution:
       integrity: sha1-7AbBDgo0wPL68Zn3/X/Hj//QPHM=
-  /https-proxy-agent/5.0.0:
-    dependencies:
-      agent-base: 6.0.2
-      debug: 4.3.1
-    dev: false
-    engines:
-      node: '>= 6'
-    resolution:
-      integrity: sha512-EkYm5BcKUGiduxzSt3Eppko+PiNWNEpa4ySk9vTC6wDsQJW9rHSa+UhGNJoRYp7bz6Ht1eaRIa6QaJqO5rCFbA==
   /iconv-lite/0.4.24:
     dependencies:
       safer-buffer: 2.1.2
@@ -2172,15 +2017,14 @@ packages:
     dev: false
     resolution:
       integrity: sha512-W8oiw8ylXdMQJQG/FtBaSbXQkf9YgqEPh5sjfFOx6BlZVVLd8UP7Cp7qZe32lVAuQEGnU/JlmWkyzBOdt6xVrw==
-  /next/10.0.6_react-dom@17.0.1+react@17.0.1:
+  /next/10.0.7_react-dom@17.0.1+react@17.0.1:
     dependencies:
-      '@ampproject/toolbox-optimizer': 2.7.1-alpha.0
       '@babel/runtime': 7.12.5
       '@hapi/accept': 5.0.1
-      '@next/env': 10.0.6
-      '@next/polyfill-module': 10.0.6
-      '@next/react-dev-overlay': 10.0.6_react-dom@17.0.1+react@17.0.1
-      '@next/react-refresh-utils': 10.0.6_react-refresh@0.8.3
+      '@next/env': 10.0.7
+      '@next/polyfill-module': 10.0.7
+      '@next/react-dev-overlay': 10.0.7_react-dom@17.0.1+react@17.0.1
+      '@next/react-refresh-utils': 10.0.7_react-refresh@0.8.3
       '@opentelemetry/api': 0.14.0
       ast-types: 0.13.2
       browserslist: 4.16.1
@@ -2233,7 +2077,7 @@ packages:
       sass:
         optional: true
     resolution:
-      integrity: sha512-uM5Yv4Ha9iL6Lbg7Ez36GyJ0YTdRLzXLA9b1REH3rX2Wytw0Ls5qPuFGk4BHSQpQhYx6Z61iA2qPkGl33W4iBg==
+      integrity: sha512-We0utmwwfkvO12eLyUZd3tX9VLDE3FPpOaHpH3kqKdUTxJzUKt8FLBXCTm0mwsTKW5XColWG8mJvz2OLu3+3QA==
   /node-abi/2.19.3:
     dependencies:
       semver: 5.7.1
@@ -2295,12 +2139,6 @@ packages:
     optional: true
     resolution:
       integrity: sha1-lKKxYzxPExdVMAfYlm/Q6EG2pMI=
-  /normalize-html-whitespace/1.0.0:
-    dev: false
-    engines:
-      node: '>= 8'
-    resolution:
-      integrity: sha512-9ui7CGtOOlehQu0t/OhhlmDyc71mKVlv+4vF+me4iZLPrNtRL2xoquEdfZxasC/bdQi/Hr3iTrpyRKIG+ocabA==
   /normalize-path/3.0.0:
     dev: false
     engines:
@@ -2567,24 +2405,6 @@ packages:
       node: '>=6'
     resolution:
       integrity: sha512-7Wjy+9E3WwLOEL30D+m8TSTF7qJJUJLONBnwQp0518siuMxUQUbgZwssaFX+QKlZkjHZcw/IpZCt/H0srrntSg==
-  /postcss-safe-parser/4.0.2:
-    dependencies:
-      postcss: 7.0.35
-    dev: false
-    engines:
-      node: '>=6.0.0'
-    resolution:
-      integrity: sha512-Uw6ekxSWNLCPesSv/cmqf2bY/77z11O7jZGPax3ycZMFU/oi2DMH9i89AdHc1tRwFg/arFoEwX0IS3LCUxJh1g==
-  /postcss/7.0.32:
-    dependencies:
-      chalk: 2.4.2
-      source-map: 0.6.1
-      supports-color: 6.1.0
-    dev: false
-    engines:
-      node: '>=6.0.0'
-    resolution:
-      integrity: sha512-03eXong5NLnNCD05xscnGKGDZ98CyzoqPSMjOe6SuoQY7Z2hIj0Ld1g/O/UQRuOle2aRtiIRDg9tDcTGAkLfKw==
   /postcss/7.0.35:
     dependencies:
       chalk: 2.4.2
@@ -3080,13 +2900,6 @@ packages:
     dev: false
     resolution:
       integrity: sha512-4nX6OYvOYr6R76xfQKi6cZpTO3YSWe/vd+QdIfoH0lBy0MnPkeAbb2rRWgmgADkXUeCKPwO1FZAKlAVWAadELw==
-  /source-map-support/0.5.19:
-    dependencies:
-      buffer-from: 1.1.1
-      source-map: 0.6.1
-    dev: false
-    resolution:
-      integrity: sha512-Wonm7zOCIJzBGQdB+thsPar0kYuCIzYvxZwlBa87yi/Mdjv7Tip2cyVbLj5o0cFPN4EVkuTwb3GDDyUx2DGnGw==
   /source-map/0.6.1:
     dev: false
     engines:
@@ -3275,17 +3088,6 @@ packages:
     optional: true
     resolution:
       integrity: sha512-ujeqbceABgwMZxEJnk2HDY2DlnUZ+9oEcb1KzTVfYHio0UE6dG71n60d8D2I4qNvleWrrXpmjpt7vZeF1LnMZQ==
-  /terser/5.5.1:
-    dependencies:
-      commander: 2.20.3
-      source-map: 0.7.3
-      source-map-support: 0.5.19
-    dev: false
-    engines:
-      node: '>=10'
-    hasBin: true
-    resolution:
-      integrity: sha512-6VGWZNVP2KTUcltUQJ25TtNjx/XgdDsBDKGt8nN0MpydU36LmbPPcMBd2kmtZNNGVVDLg44k7GKeHHj+4zPIBQ==
   /timers-browserify/2.0.12:
     dependencies:
       setimmediate: 1.0.5
@@ -3519,7 +3321,7 @@ specifiers:
   express: 4.17.1
   fastify: 3.12.0
   lodash: 4.17.20
-  next: 10.0.6
+  next: 10.0.7
   next-absolute-url: 1.2.2
   next-connect: 0.10.0
   oidc-client: 1.11.4
