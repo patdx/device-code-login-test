@@ -2,7 +2,7 @@ dependencies:
   '@types/lodash': 4.14.168
   express: 4.17.1
   fastify: 3.12.0
-  lodash: 4.17.20
+  lodash: 4.17.21
   next: 10.0.7_react-dom@17.0.1+react@17.0.1
   next-absolute-url: 1.2.2
   next-connect: 0.10.0
@@ -1833,6 +1833,10 @@ packages:
     dev: false
     resolution:
       integrity: sha512-PlhdFcillOINfeV7Ni6oF1TAEayyZBoZ8bcshTHqOYJYlrqzRK5hagpagky5o4HfCzzd1TRkXPMFq6cKk9rGmA==
+  /lodash/4.17.21:
+    dev: false
+    resolution:
+      integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
   /loose-envify/1.4.0:
     dependencies:
       js-tokens: 4.0.0
@@ -3320,7 +3324,7 @@ specifiers:
   '@types/lodash': 4.14.168
   express: 4.17.1
   fastify: 3.12.0
-  lodash: 4.17.20
+  lodash: 4.17.21
   next: 10.0.7
   next-absolute-url: 1.2.2
   next-connect: 0.10.0
