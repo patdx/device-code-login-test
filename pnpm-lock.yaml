@@ -7,7 +7,7 @@ dependencies:
   next-absolute-url: 1.2.2
   next-connect: 0.10.0
   oidc-client: 1.11.5
-  oidc-provider: 7.0.0
+  oidc-provider: 7.1.0
   openid-client: 4.4.1
   react: 17.0.1
   react-dom: 17.0.1_react@17.0.1
@@ -2020,7 +2020,7 @@ packages:
     dev: false
     resolution:
       integrity: sha512-LcKrKC8Av0m/KD/4EFmo9Sg8fSQ+WFJWBrmtWd+tZkNn3WT/sQG3REmPANE9tzzhbjW6VkTNy4xhAXCfPApAOg==
-  /oidc-provider/7.0.0:
+  /oidc-provider/7.1.0:
     dependencies:
       '@koa/cors': 3.1.0
       cacheable-lookup: 6.0.0
@@ -2041,7 +2041,7 @@ packages:
     engines:
       node: ^12.19.0 || ^14.15.0
     resolution:
-      integrity: sha512-sKZWm3Pe5PfZSmmO4aY3VeNzjsuFRd23eeps7Yj3yV4HEiVeuVOL6p+Mp1YM8rAmf5cftHbz9dHdtxEzn2nZXA==
+      integrity: sha512-vPqOaLGii3Koe1hEZaNke7ELEhG7o8xcLLcbdjsIRVauEMs0s3/JAW8WBBcAsB/9Z5K+vw34NKos/j/XRLRrkg==
   /oidc-token-hash/5.0.1:
     dev: false
     engines:
@@ -3130,7 +3130,7 @@ specifiers:
   next-absolute-url: 1.2.2
   next-connect: 0.10.0
   oidc-client: 1.11.5
-  oidc-provider: 7.0.0
+  oidc-provider: 7.1.0
   openid-client: 4.4.1
   prettier: 2.2.1
   react: 17.0.1
