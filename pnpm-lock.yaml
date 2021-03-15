@@ -8,7 +8,7 @@ dependencies:
   next-connect: 0.10.0
   oidc-client: 1.11.5
   oidc-provider: 7.1.2
-  openid-client: 4.5.0
+  openid-client: 4.5.1
   react: 17.0.1
   react-dom: 17.0.1_react@17.0.1
 devDependencies:
@@ -1871,7 +1871,7 @@ packages:
     dev: false
     resolution:
       integrity: sha1-Kv3oTQPlC5qO3EROMGEKcCle37Q=
-  /openid-client/4.5.0:
+  /openid-client/4.5.1:
     dependencies:
       aggregate-error: 3.1.0
       got: 11.8.1
@@ -1884,7 +1884,7 @@ packages:
     engines:
       node: ^10.19.0 || >=12.0.0 < 13 || >=13.7.0 < 14 || >= 14.2.0
     resolution:
-      integrity: sha512-ofw+DcVOPXekG2l5quc7f2bQYi+Vtpa748PXz/u6LeLetTQlzQ1H1wiGnTMTyA9jA2gZGYTj4HsVd3DeQMdajA==
+      integrity: sha512-IRjbyA8iIr0JJyhFJNo2oHgH+uS7WnlysvFtfR38YeNsebPyGlhX5d1Rv1Zk9G15cmPHktRO9AnQXYmLhAm+xg==
   /os-browserify/0.3.0:
     dev: false
     resolution:
@@ -2759,7 +2759,7 @@ specifiers:
   next-connect: 0.10.0
   oidc-client: 1.11.5
   oidc-provider: 7.1.2
-  openid-client: 4.5.0
+  openid-client: 4.5.1
   prettier: 2.2.1
   react: 17.0.1
   react-dom: 17.0.1
