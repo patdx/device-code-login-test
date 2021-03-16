@@ -5,7 +5,7 @@ dependencies:
   lodash: 4.17.21
   next: 10.0.9_react-dom@17.0.1+react@17.0.1
   next-absolute-url: 1.2.2
-  next-connect: 0.10.0
+  next-connect: 0.10.1
   oidc-client: 1.11.5
   oidc-provider: 7.1.2
   openid-client: 4.5.1
@@ -1681,12 +1681,12 @@ packages:
     dev: false
     resolution:
       integrity: sha512-Z2+LZXQTthhw2je9u4eq8QWXxXd57a6b54x9exBfQX4Dct6YxaMjcXZWNLHd9AOlCue84EsMpdSGP7wACqUnPg==
-  /next-connect/0.10.0:
+  /next-connect/0.10.1:
     dependencies:
       trouter: 3.1.0
     dev: false
     resolution:
-      integrity: sha512-W8oiw8ylXdMQJQG/FtBaSbXQkf9YgqEPh5sjfFOx6BlZVVLd8UP7Cp7qZe32lVAuQEGnU/JlmWkyzBOdt6xVrw==
+      integrity: sha512-gNpH53DtYfZhfOzmAVrE3jiEDj7kGtodeGcyUd2gvPsB+6/hQSmRVekCzNuF20+vpHnkpE8VUDQmzARzzqwpYA==
   /next/10.0.9_react-dom@17.0.1+react@17.0.1:
     dependencies:
       '@babel/runtime': 7.12.5
@@ -2756,7 +2756,7 @@ specifiers:
   lodash: 4.17.21
   next: 10.0.9
   next-absolute-url: 1.2.2
-  next-connect: 0.10.0
+  next-connect: 0.10.1
   oidc-client: 1.11.5
   oidc-provider: 7.1.2
   openid-client: 4.5.1
