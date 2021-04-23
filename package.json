@@ -17,7 +17,7 @@
     "next-connect": "0.10.1",
     "oidc-client": "1.11.5",
     "oidc-provider": "7.3.1",
-    "openid-client": "4.7.1",
+    "openid-client": "4.7.2",
     "react": "17.0.2",
     "react-dom": "17.0.2"
   },
