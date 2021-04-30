@@ -3,7 +3,7 @@ lockfileVersion: 5.3
 specifiers:
   '@types/lodash': 4.14.168
   express: 4.17.1
-  fastify: 3.15.0
+  fastify: 3.15.1
   lodash: 4.17.21
   next: 10.2.0
   next-absolute-url: 1.2.2
@@ -18,7 +18,7 @@ specifiers:
 dependencies:
   '@types/lodash': 4.14.168
   express: 4.17.1
-  fastify: 3.15.0
+  fastify: 3.15.1
   lodash: 4.17.21
   next: 10.2.0_react-dom@17.0.2+react@17.0.2
   next-absolute-url: 1.2.2
@@ -1067,8 +1067,8 @@ packages:
     resolution: {integrity: sha512-s1EQguBw/9qtc1p/WTY4eq9WMRIACkj+HTcOIK1in4MV5aFaQC9ZCIt0dJ7pr5bIf4lPpHvAtP2ywpTNgs7hqw==}
     dev: false
 
-  /fastify/3.15.0:
-    resolution: {integrity: sha512-7YJhWI1msebpMDmbiKFA43255PWJG3ugt/d6Nz2ceH16enKYBFbYlgRmebWrxvCGtRo1i0jmX32XGsl8F1Y5SQ==}
+  /fastify/3.15.1:
+    resolution: {integrity: sha512-QZBGrSOwcR+IJF5OwYTZ5662wEd68SqC6sG4aMu0GncKbYlG9GF88EF2PzN2HfXCCD9K0d/+ZNowuF8S893mOg==}
     engines: {node: '>=10.16.0'}
     dependencies:
       '@fastify/proxy-addr': 3.0.0
