@@ -9,7 +9,7 @@ specifiers:
   next-absolute-url: 1.2.2
   next-connect: 0.10.1
   oidc-client: 1.11.5
-  oidc-provider: 7.3.1
+  oidc-provider: 7.3.2
   openid-client: 4.7.3
   prettier: 2.3.0
   react: 17.0.2
@@ -24,7 +24,7 @@ dependencies:
   next-absolute-url: 1.2.2
   next-connect: 0.10.1
   oidc-client: 1.11.5
-  oidc-provider: 7.3.1
+  oidc-provider: 7.3.2
   openid-client: 4.7.3
   react: 17.0.2
   react-dom: 17.0.2_react@17.0.2
@@ -1525,8 +1525,8 @@ packages:
       '@panva/asn1.js': 1.0.0
     dev: false
 
-  /jose/3.11.3:
-    resolution: {integrity: sha512-sv7p3Yz4tX8msWtCkty9hzlhyrM6nI4iIbX6R8g/idBmWgBMvqYQRsmBL4RwFQUXY0j3ARqvMp+EmG5rDgXlhg==}
+  /jose/3.12.0:
+    resolution: {integrity: sha512-ql/50NZ6x7GCS/LoatUcwG2JoDGwTfQ8m65wpQ+dG1xOnlk/fOXcAw1tQgWpxAqBsAPXwHJVr5PBRHufWbfYmw==}
     dev: false
 
   /js-tokens/4.0.0:
@@ -1770,12 +1770,6 @@ packages:
     resolution: {integrity: sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==}
     dev: false
 
-  /nanoid/3.1.20:
-    resolution: {integrity: sha512-a1cQNyczgKbLX9jwbS/+d7W8fX/RfgYR7lVWwWOGIPNgK2m0MWvrGF6/m4kk6U3QcFMnZf3RIhL0v2Jgh/0Uxw==}
-    engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
-    hasBin: true
-    dev: false
-
   /nanoid/3.1.22:
     resolution: {integrity: sha512-/2ZUaJX2ANuLtTvqTlgqBQNJoQO398KyJgZloL0PZkC0dpysjncRUPsFe3DUPzz/y3h+u7C46np8RMuvF3jsSQ==}
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
@@ -1978,8 +1972,8 @@ packages:
       serialize-javascript: 4.0.0
     dev: false
 
-  /oidc-provider/7.3.1:
-    resolution: {integrity: sha512-1XR9IitxEdYZWvjr40B07JD48vRCcW5CEqipbJOoETxaMX2BxYmaX5wARDdIc/T39XD/hW8xJWnh3l6WYCoc2w==}
+  /oidc-provider/7.3.2:
+    resolution: {integrity: sha512-bpFudpptWowBWsmIW0e904q/in2gcdjIySyafSdLXs3pKpvIndurPCDO/7VkPigm25JwQKcHjVu2hte6RI8oPQ==}
     engines: {node: ^12.19.0 || ^14.15.0}
     dependencies:
       '@koa/cors': 3.1.0
@@ -1987,11 +1981,11 @@ packages:
       debug: 4.3.1
       ejs: 3.1.5
       got: 11.8.1
-      jose: 3.11.3
+      jose: 3.12.0
       jsesc: 3.0.2
       koa: 2.13.1
       koa-compose: 4.1.0
-      nanoid: 3.1.20
+      nanoid: 3.1.22
       object-hash: 2.1.1
       oidc-token-hash: 5.0.1
       paseto: 2.1.0
