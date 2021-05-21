@@ -1,7 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@types/lodash': 4.14.169
+  '@types/lodash': 4.14.170
   express: 4.17.1
   fastify: 3.15.1
   lodash: 4.17.21
@@ -16,7 +16,7 @@ specifiers:
   react-dom: 17.0.2
 
 dependencies:
-  '@types/lodash': 4.14.169
+  '@types/lodash': 4.14.170
   express: 4.17.1
   fastify: 3.15.1
   lodash: 4.17.21
@@ -191,8 +191,8 @@ packages:
       '@types/node': 14.14.20
     dev: false
 
-  /@types/lodash/4.14.169:
-    resolution: {integrity: sha512-DvmZHoHTFJ8zhVYwCLWbQ7uAbYQEk52Ev2/ZiQ7Y7gQGeV9pjBqjnQpECMHfKS1rCYAhMI7LHVxwyZLZinJgdw==}
+  /@types/lodash/4.14.170:
+    resolution: {integrity: sha512-bpcvu/MKHHeYX+qeEN8GE7DIravODWdACVA1ctevD8CN24RhPZIKMn9ntfAsrvLfSX3cR5RrBKAbYm9bGs0A+Q==}
     dev: false
 
   /@types/node/14.14.20:
