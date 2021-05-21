@@ -5,7 +5,7 @@ specifiers:
   express: 4.17.1
   fastify: 3.15.1
   lodash: 4.17.21
-  next: 10.2.1
+  next: 10.2.2
   next-absolute-url: 1.2.2
   next-connect: 0.10.1
   oidc-client: 1.11.5
@@ -20,7 +20,7 @@ dependencies:
   express: 4.17.1
   fastify: 3.15.1
   lodash: 4.17.21
-  next: 10.2.1_react-dom@17.0.2+react@17.0.2
+  next: 10.2.2_react-dom@17.0.2+react@17.0.2
   next-absolute-url: 1.2.2
   next-connect: 0.10.1
   oidc-client: 1.11.5
@@ -102,16 +102,16 @@ packages:
       vary: 1.1.2
     dev: false
 
-  /@next/env/10.2.1:
-    resolution: {integrity: sha512-mvUCIrwxFfyQa24iTbYAW1fbToC7cW4cGW5oiR3AyE6clfGK6fzwbkdODtjfaHGmCCS4K0epsy/XgV6DJS/EIw==}
+  /@next/env/10.2.2:
+    resolution: {integrity: sha512-m0xOpl4F9z7R7Yt2OtJoo6ZUsFPdx+kuvZeoctH7T6lO66DmZL3W6MQDxso/ArkH8VOlDPZgeQVVBPf+I7wflA==}
     dev: false
 
-  /@next/polyfill-module/10.2.1:
-    resolution: {integrity: sha512-MNVwR3lzZuH/UsLxclLeNXhd9GGvqjavMtAx8zSbOHzZHPmEYw3EQRqUI0qCNUdX52N+aSPeAhvDjUUzHdCpsA==}
+  /@next/polyfill-module/10.2.2:
+    resolution: {integrity: sha512-0t5Hw1Dr18TWP65qAnakRa8+jza6SAFOz0b2v67s5AVquAwXXlclR4SfUy3ahrRtjCqlbLEE/oFIzCGbyMYfVA==}
     dev: false
 
-  /@next/react-dev-overlay/10.2.1_react-dom@17.0.2+react@17.0.2:
-    resolution: {integrity: sha512-ZCSPO/gyJio9jBnF4Z+f+WMfMiIAgVjxyZ9h81W1Fjd/5BwoAADxakyCdXiLCMlVXkgtO1dXkY+yXTegxkpASQ==}
+  /@next/react-dev-overlay/10.2.2_react-dom@17.0.2+react@17.0.2:
+    resolution: {integrity: sha512-uPslFPWvvZ8AdadGdK2/834UnJy6F+7071/ere6QpN88Ngzqx9lDIhjslEeFLRtpyBst4s1YUdbm69btVPdE5w==}
     peerDependencies:
       react: ^16.9.0 || ^17
       react-dom: ^16.9.0 || ^17
@@ -131,8 +131,8 @@ packages:
       strip-ansi: 6.0.0
     dev: false
 
-  /@next/react-refresh-utils/10.2.1_react-refresh@0.8.3:
-    resolution: {integrity: sha512-G7l/1kQqTzZ1k6cw6WQol8F0eA7S+YQhUep4eTwlTI6k7Zei1f6/NuSbed9XxEH6xBB/bjVTaxxf0dYpBeB7zA==}
+  /@next/react-refresh-utils/10.2.2_react-refresh@0.8.3:
+    resolution: {integrity: sha512-OL7r0iz+SiE9SMWcxZocUtEAHv0/TlBWxIE3KjjO1vWSU1r0gMrE2l2RxHfMLIPsl6CjAkcPxoaXlosFsJ2S5w==}
     peerDependencies:
       react-refresh: 0.8.3
       webpack: ^4 || ^5
@@ -1789,8 +1789,8 @@ packages:
       trouter: 3.1.0
     dev: false
 
-  /next/10.2.1_react-dom@17.0.2+react@17.0.2:
-    resolution: {integrity: sha512-2xJx8vFVBxfEoMz1nrUnH/IN5Q1YKw/8MIOPlwmjUWQTYrDyNc4ldmm/4kWatDMgus6Sd2LVGo3RA5eKGOD1aQ==}
+  /next/10.2.2_react-dom@17.0.2+react@17.0.2:
+    resolution: {integrity: sha512-HPGSLrflWPvf3zEZSIk/uj0CZ+YYrpZwZS0PFAgXbEwb894iRuAPzglagqlzcCh7lg12RBEaKNIxhrVa5xgjtQ==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     peerDependencies:
@@ -1809,10 +1809,10 @@ packages:
     dependencies:
       '@babel/runtime': 7.12.5
       '@hapi/accept': 5.0.2
-      '@next/env': 10.2.1
-      '@next/polyfill-module': 10.2.1
-      '@next/react-dev-overlay': 10.2.1_react-dom@17.0.2+react@17.0.2
-      '@next/react-refresh-utils': 10.2.1_react-refresh@0.8.3
+      '@next/env': 10.2.2
+      '@next/polyfill-module': 10.2.2
+      '@next/react-dev-overlay': 10.2.2_react-dom@17.0.2+react@17.0.2
+      '@next/react-refresh-utils': 10.2.2_react-refresh@0.8.3
       '@opentelemetry/api': 0.14.0
       assert: 2.0.0
       ast-types: 0.13.2
