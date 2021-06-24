@@ -9,7 +9,7 @@ specifiers:
   next-absolute-url: 1.2.2
   next-connect: 0.10.1
   oidc-client: 1.11.5
-  oidc-provider: 7.5.0
+  oidc-provider: 7.5.1
   openid-client: 4.7.4
   prettier: 2.3.1
   react: 17.0.2
@@ -24,7 +24,7 @@ dependencies:
   next-absolute-url: 1.2.2
   next-connect: 0.10.1
   oidc-client: 1.11.5
-  oidc-provider: 7.5.0
+  oidc-provider: 7.5.1
   openid-client: 4.7.4
   react: 17.0.2
   react-dom: 17.0.2_react@17.0.2
@@ -1954,8 +1954,8 @@ packages:
       serialize-javascript: 4.0.0
     dev: false
 
-  /oidc-provider/7.5.0:
-    resolution: {integrity: sha512-x8OeHv2kAK6rEkC141iDlF+lInRQAPpe+0wqFaXrOOZFm/QPmab5g3JdgagBk9wOFR/g8CF7raU4+qOGkbYfbg==}
+  /oidc-provider/7.5.1:
+    resolution: {integrity: sha512-WFWM3q2AyLT5Ma+guGwcUEXkoxY6LoYmcSBodMHRpIY0B0vs3PtX3WerC5NYffZ3QB3qdKac2HiHEJbYzvxrKA==}
     engines: {node: ^12.19.0 || ^14.15.0}
     dependencies:
       '@koa/cors': 3.1.0
