@@ -9,7 +9,7 @@ specifiers:
   next-absolute-url: 1.2.2
   next-connect: 0.10.1
   oidc-client: 1.11.5
-  oidc-provider: 7.5.4
+  oidc-provider: 7.6.0
   openid-client: 4.7.4
   prettier: 2.3.2
   react: 17.0.2
@@ -24,7 +24,7 @@ dependencies:
   next-absolute-url: 1.2.2
   next-connect: 0.10.1
   oidc-client: 1.11.5
-  oidc-provider: 7.5.4
+  oidc-provider: 7.6.0
   openid-client: 4.7.4
   react: 17.0.2
   react-dom: 17.0.2_react@17.0.2
@@ -1953,8 +1953,8 @@ packages:
       serialize-javascript: 4.0.0
     dev: false
 
-  /oidc-provider/7.5.4:
-    resolution: {integrity: sha512-ffUkiXA2g+QB7CmlrAOBPg7h/j/AEa0k7x4qVrjBrkeTk3riPyHidFhkYwOt7rW/3rsOdcqXliEME+MeSiSkUA==}
+  /oidc-provider/7.6.0:
+    resolution: {integrity: sha512-seBCtQ30+Y6SxhXpl+EYxsRCHiHlOLtt8rfmGtJA6OjfpFs1bO0ph+FBmXtkZK/2chkaYf3r2NO2REjzUGzdvw==}
     engines: {node: ^12.19.0 || ^14.15.0}
     dependencies:
       '@koa/cors': 3.1.0
@@ -1969,9 +1969,11 @@ packages:
       nanoid: 3.1.22
       object-hash: 2.1.1
       oidc-token-hash: 5.0.1
-      paseto: 2.1.0
+      paseto2: /paseto/2.1.3
       quick-lru: 5.1.1
       raw-body: 2.4.1
+    optionalDependencies:
+      paseto3: /paseto/3.0.0
     transitivePeerDependencies:
       - supports-color
     dev: false
@@ -2065,10 +2067,16 @@ packages:
     engines: {node: '>= 0.8'}
     dev: false
 
-  /paseto/2.1.0:
-    resolution: {integrity: sha512-GSEKr2Ow/tnFKjEyAiqQVm7bQwiELtz9lSa7OFz7RYBXBhHUafQ0xlPSR40vpvEIWejtzXp7Se5OWT6dBtljgA==}
+  /paseto/2.1.3:
+    resolution: {integrity: sha512-BNkbvr0ZFDbh3oV13QzT5jXIu8xpFc9r0o5mvWBhDU1GBkVt1IzHK1N6dcYmN7XImrUmPQ0HCUXmoe2WPo8xsg==}
     engines: {node: ^12.19.0 || >=14.15.0}
     dev: false
+
+  /paseto/3.0.0:
+    resolution: {integrity: sha512-Bbo2U+cDOt3GKAVPXfGsgpjH9kyNCpCR/czp3zbu72RgQKAFADEtHON6CPPDGMJptKTuD+TEln8Hg28QCMTJtg==}
+    engines: {node: '>=16.0.0'}
+    dev: false
+    optional: true
 
   /path-browserify/0.0.1:
     resolution: {integrity: sha512-BapA40NHICOS+USX9SN4tyhq+A2RrN/Ws5F0Z5aMHDp98Fl86lX8Oti8B7uN93L4Ifv4fHOEA+pQw87gmMO/lQ==}
