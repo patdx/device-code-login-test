@@ -3,7 +3,7 @@ lockfileVersion: 5.3
 specifiers:
   '@types/lodash': 4.14.172
   express: 4.17.1
-  fastify: 3.20.0
+  fastify: 3.20.1
   lodash: 4.17.21
   next: 11.0.1
   next-absolute-url: 1.2.2
@@ -18,7 +18,7 @@ specifiers:
 dependencies:
   '@types/lodash': 4.14.172
   express: 4.17.1
-  fastify: 3.20.0
+  fastify: 3.20.1
   lodash: 4.17.21
   next: 11.0.1_react-dom@17.0.2+react@17.0.2
   next-absolute-url: 1.2.2
@@ -1041,8 +1041,8 @@ packages:
     resolution: {integrity: sha512-s1EQguBw/9qtc1p/WTY4eq9WMRIACkj+HTcOIK1in4MV5aFaQC9ZCIt0dJ7pr5bIf4lPpHvAtP2ywpTNgs7hqw==}
     dev: false
 
-  /fastify/3.20.0:
-    resolution: {integrity: sha512-JByESVCk+zIXVRgsHlnZb2Ye+XnSW2kgHwwDGmbdVWXgNqUI9M65pO/SKUJ6B82hDfyVaI53bqgFZbqhWnPEGQ==}
+  /fastify/3.20.1:
+    resolution: {integrity: sha512-AzIpPuHdPaRBMWCg+LbnfGvhmBVpF1tRihGOfpxnUphL1eh8ZrN1GbY3cXY07yn4fUNzYsByTkc9/IjwXH7DAQ==}
     dependencies:
       '@fastify/ajv-compiler': 1.1.0
       abstract-logging: 2.0.1
@@ -1050,7 +1050,7 @@ packages:
       fast-json-stringify: 2.5.2
       fastify-error: 0.3.0
       fastify-warning: 0.2.0
-      find-my-way: 4.0.0
+      find-my-way: 4.3.3
       flatstr: 1.0.12
       light-my-request: 4.4.1
       pino: 6.13.0
@@ -1105,8 +1105,8 @@ packages:
       pkg-dir: 4.2.0
     dev: false
 
-  /find-my-way/4.0.0:
-    resolution: {integrity: sha512-IrICzn/Xm5r5A3RCB8rGLNe+dvzZl+SiUugTQOUMLJciP2qiSu2hw9JtVEYV3VruAYzSWjo/MLH9CFKtVdlWhQ==}
+  /find-my-way/4.3.3:
+    resolution: {integrity: sha512-5E4bRdaATB1MewjOCBjx4xvD205a4t2ripCnXB+YFhYEJ0NABtrcC7XLXLq0TPoFe/WYGUFqys3Qk3HCOGeNcw==}
     engines: {node: '>=10'}
     dependencies:
       fast-decode-uri-component: 1.0.1
