@@ -9,7 +9,7 @@ specifiers:
   next-absolute-url: 1.2.2
   next-connect: 0.10.2
   oidc-client: 1.11.5
-  oidc-provider: 7.6.0
+  oidc-provider: 7.7.0
   openid-client: 4.7.5
   prettier: 2.3.2
   react: 17.0.2
@@ -24,7 +24,7 @@ dependencies:
   next-absolute-url: 1.2.2
   next-connect: 0.10.2
   oidc-client: 1.11.5
-  oidc-provider: 7.6.0
+  oidc-provider: 7.7.0
   openid-client: 4.7.5
   react: 17.0.2
   react-dom: 17.0.2_react@17.0.2
@@ -1807,12 +1807,6 @@ packages:
     resolution: {integrity: sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==}
     dev: false
 
-  /nanoid/3.1.22:
-    resolution: {integrity: sha512-/2ZUaJX2ANuLtTvqTlgqBQNJoQO398KyJgZloL0PZkC0dpysjncRUPsFe3DUPzz/y3h+u7C46np8RMuvF3jsSQ==}
-    engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
-    hasBin: true
-    dev: false
-
   /nanoid/3.1.25:
     resolution: {integrity: sha512-rdwtIXaXCLFAQbnfqDRnI6jaRHp9fTcYBjtFKE8eezcZ7LuLjhUaQGNeMXf1HmRoCH32CLz6XwX0TtxEOS/A3Q==}
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
@@ -2021,8 +2015,8 @@ packages:
       serialize-javascript: 4.0.0
     dev: false
 
-  /oidc-provider/7.6.0:
-    resolution: {integrity: sha512-seBCtQ30+Y6SxhXpl+EYxsRCHiHlOLtt8rfmGtJA6OjfpFs1bO0ph+FBmXtkZK/2chkaYf3r2NO2REjzUGzdvw==}
+  /oidc-provider/7.7.0:
+    resolution: {integrity: sha512-SyqKP7ggRHbLbRXNiYZNmHiGWJ4vVv1SToSsr171miCHwYH4zhtJ6VoE9f14G9W1YryVIah2XQXAq5m/3h5o8A==}
     engines: {node: ^12.19.0 || ^14.15.0}
     dependencies:
       '@koa/cors': 3.1.0
@@ -2034,7 +2028,7 @@ packages:
       jsesc: 3.0.2
       koa: 2.13.1
       koa-compose: 4.1.0
-      nanoid: 3.1.22
+      nanoid: 3.1.25
       object-hash: 2.1.1
       oidc-token-hash: 5.0.1
       paseto2: /paseto/2.1.3
