@@ -3,7 +3,7 @@ lockfileVersion: 5.3
 specifiers:
   '@types/lodash': 4.14.172
   express: 4.17.1
-  fastify: 3.21.0
+  fastify: 3.21.1
   lodash: 4.17.21
   next: 11.1.2
   next-absolute-url: 1.2.2
@@ -18,7 +18,7 @@ specifiers:
 dependencies:
   '@types/lodash': 4.14.172
   express: 4.17.1
-  fastify: 3.21.0
+  fastify: 3.21.1
   lodash: 4.17.21
   next: 11.1.2_react-dom@17.0.2+react@17.0.2
   next-absolute-url: 1.2.2
@@ -1097,8 +1097,8 @@ packages:
     resolution: {integrity: sha512-s1EQguBw/9qtc1p/WTY4eq9WMRIACkj+HTcOIK1in4MV5aFaQC9ZCIt0dJ7pr5bIf4lPpHvAtP2ywpTNgs7hqw==}
     dev: false
 
-  /fastify/3.21.0:
-    resolution: {integrity: sha512-hc9p0meCV8PXIQzg8BwXekhCmJm5LHfeJi7U3mKQTMu7pQT24CL756jUxM9sOLEbBpQoD82PejVPW2lfLiXJsw==}
+  /fastify/3.21.1:
+    resolution: {integrity: sha512-BibsysctHZzNAV6oSqTnWVGnEeNDJksk8va642WZeyIzKo0udDSvcR6r8jWtUAWpqWzMC13b7tACdpX9kd0h9w==}
     dependencies:
       '@fastify/ajv-compiler': 1.1.0
       abstract-logging: 2.0.1
@@ -1206,6 +1206,7 @@ packages:
     resolution: {integrity: sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==}
     engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
     os: [darwin]
+    requiresBuild: true
     dev: false
     optional: true
 
@@ -2137,6 +2138,7 @@ packages:
   /paseto/3.0.0:
     resolution: {integrity: sha512-Bbo2U+cDOt3GKAVPXfGsgpjH9kyNCpCR/czp3zbu72RgQKAFADEtHON6CPPDGMJptKTuD+TEln8Hg28QCMTJtg==}
     engines: {node: '>=16.0.0'}
+    requiresBuild: true
     dev: false
     optional: true
 
