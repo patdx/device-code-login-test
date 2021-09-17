@@ -3,7 +3,7 @@ lockfileVersion: 5.3
 specifiers:
   '@types/lodash': 4.14.173
   express: 4.17.1
-  fastify: 3.21.2
+  fastify: 3.21.3
   lodash: 4.17.21
   next: 11.1.2
   next-absolute-url: 1.2.2
@@ -18,7 +18,7 @@ specifiers:
 dependencies:
   '@types/lodash': 4.14.173
   express: 4.17.1
-  fastify: 3.21.2
+  fastify: 3.21.3
   lodash: 4.17.21
   next: 11.1.2_react-dom@17.0.2+react@17.0.2
   next-absolute-url: 1.2.2
@@ -1097,8 +1097,8 @@ packages:
     resolution: {integrity: sha512-s1EQguBw/9qtc1p/WTY4eq9WMRIACkj+HTcOIK1in4MV5aFaQC9ZCIt0dJ7pr5bIf4lPpHvAtP2ywpTNgs7hqw==}
     dev: false
 
-  /fastify/3.21.2:
-    resolution: {integrity: sha512-FAhhD9sQRipIVhx4TBCgYFxo6XXidS+nzxaww+w6uQoFxPvDLsOJ8U0HPIaR1nqckMzpeqselqRDWAQZdqs8/A==}
+  /fastify/3.21.3:
+    resolution: {integrity: sha512-4PuuCCcGZpcD9ERc8x6H7GHElcHQxHVouyANAVw/Nd9h07X63QQJ2EpHeQtuiDCjcs0pf9wKb6KIul3qCYh+1g==}
     dependencies:
       '@fastify/ajv-compiler': 1.1.0
       abstract-logging: 2.0.1
