@@ -9,7 +9,7 @@ specifiers:
   next-absolute-url: 1.2.2
   next-connect: 0.10.2
   oidc-client: 1.11.5
-  oidc-provider: 7.8.0
+  oidc-provider: 7.8.1
   openid-client: 4.9.0
   prettier: 2.4.1
   react: 17.0.2
@@ -24,7 +24,7 @@ dependencies:
   next-absolute-url: 1.2.2
   next-connect: 0.10.2
   oidc-client: 1.11.5
-  oidc-provider: 7.8.0
+  oidc-provider: 7.8.1
   openid-client: 4.9.0
   react: 17.0.2
   react-dom: 17.0.2_react@17.0.2
@@ -307,10 +307,6 @@ packages:
       color-convert: 2.0.1
     dev: false
 
-  /any-promise/1.3.0:
-    resolution: {integrity: sha1-q8av7tzqUugJzcA3au0845Y10X8=}
-    dev: false
-
   /anymatch/3.1.1:
     resolution: {integrity: sha512-mM8522psRCqzV+6LhomX5wgp25YVibjh8Wj23I5RPkPppSVSjyKD2A2mBJmWGa+KN7f2D6LNh9jkBCeyLktzjg==}
     engines: {node: '>= 8'}
@@ -555,8 +551,8 @@ packages:
     engines: {node: '>=10.6.0'}
     dev: false
 
-  /cacheable-lookup/6.0.0:
-    resolution: {integrity: sha512-5qeyMn8/BERrUPdIfcOLkdMrwltVbxIpgnYM61OLWOg3BuSSh9HrkUtTTRxYthQpBrocvYqD0tJ7vU0y6T7OWw==}
+  /cacheable-lookup/6.0.3:
+    resolution: {integrity: sha512-xdwIK7MEC8NpRIt0dx2PL7pTRKaSmDb+zirzuM+cJTRWDfwfVu4XyASkODIU4XbjsyFHKo/tDOPSs64Z3yfFWg==}
     engines: {node: '>=10.6.0'}
     dev: false
 
@@ -817,14 +813,20 @@ packages:
       ms: 2.0.0
     dev: false
 
-  /debug/3.1.0:
-    resolution: {integrity: sha512-OX8XqP7/1a9cqkxYw2yXss15f26NKWBpDXQd0/uK/KPqdQhxbPa994hnzjcE2VqQpDslf55723cKPUOGSmMY3g==}
-    dependencies:
-      ms: 2.0.0
-    dev: false
-
   /debug/4.3.1:
     resolution: {integrity: sha512-doEwdvm4PCeK4K3RQN2ZC2BYUBaxwLARCqZmMjtF8a51J2Rb0xpVloFRnCODwqjpwnAoao4pelN8l3RJdv3gRQ==}
+    engines: {node: '>=6.0'}
+    peerDependencies:
+      supports-color: '*'
+    peerDependenciesMeta:
+      supports-color:
+        optional: true
+    dependencies:
+      ms: 2.1.2
+    dev: false
+
+  /debug/4.3.2:
+    resolution: {integrity: sha512-mOp8wKcvj7XxC78zLgw/ZA+6TSgkoE2C/ienthhRD298T7UNwAg9diBpLRxC0mOezLl4B0xV7M0cCO6P/O0Xhw==}
     engines: {node: '>=6.0'}
     peerDependencies:
       supports-color: '*'
@@ -910,8 +912,8 @@ packages:
     resolution: {integrity: sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=}
     dev: false
 
-  /ejs/3.1.5:
-    resolution: {integrity: sha512-dldq3ZfFtgVTJMLjOe+/3sROTzALlL9E34V4/sDtUd/KlBSS0s6U1/+WPE1B4sj9CXHJpL1M6rhNJnc9Wbal9w==}
+  /ejs/3.1.6:
+    resolution: {integrity: sha512-9lt9Zse4hPucPkoP7FHDF0LQAlGyF9JVpnClFLFH3aSSbxmyoqINRpp/9wePWJTUl4KOQwRL72Iw3InHPDkoGw==}
     engines: {node: '>=0.10.0'}
     hasBin: true
     dependencies:
@@ -1263,6 +1265,23 @@ packages:
       responselike: 2.0.0
     dev: false
 
+  /got/11.8.2:
+    resolution: {integrity: sha512-D0QywKgIe30ODs+fm8wMZiAcZjypcCodPNuMz5H9Mny7RJ+IjJ10BdmGW7OM7fHXP+O7r6ZwapQ/YQmMSvB0UQ==}
+    engines: {node: '>=10.19.0'}
+    dependencies:
+      '@sindresorhus/is': 4.0.0
+      '@szmarczak/http-timer': 4.0.5
+      '@types/cacheable-request': 6.0.1
+      '@types/responselike': 1.0.0
+      cacheable-lookup: 5.0.4
+      cacheable-request: 7.0.1
+      decompress-response: 6.0.0
+      http2-wrapper: 1.0.0-beta.5.2
+      lowercase-keys: 2.0.0
+      p-cancelable: 2.0.0
+      responselike: 2.0.0
+    dev: false
+
   /graceful-fs/4.2.4:
     resolution: {integrity: sha512-WjKPNJF79dtJAVniUlGGWHYGz2jWxT6VhN/4m1NdkbZ2nOsEF+cI1Edgql5zCRhs/VsQYRvrXctxktVXZUkixw==}
     dev: false
@@ -1563,8 +1582,8 @@ packages:
       '@panva/asn1.js': 1.0.0
     dev: false
 
-  /jose/3.12.2:
-    resolution: {integrity: sha512-6v6JBmmL30iEqr1KTz5qB11EvkQHJ0li7bK8/q9OyljVjCZcFeo1kqFlrQ/zNOSb+XGLIKqGLH8aZyACTT4IVg==}
+  /jose/3.20.1:
+    resolution: {integrity: sha512-qAO8uCyyOfkpsAWL4U0O1ug/N8Y4OgYFMvIsvlhU1vcahUcvYkH1MOgN0JIr+XqR9O9A36NwCPju6sPHy8P6jg==}
     dev: false
 
   /js-tokens/4.0.0:
@@ -1605,26 +1624,20 @@ packages:
       json-buffer: 3.0.1
     dev: false
 
-  /koa-compose/3.2.1:
-    resolution: {integrity: sha1-qFzLQLfZhtjlo0Wzoazo6rz1Tec=}
-    dependencies:
-      any-promise: 1.3.0
-    dev: false
-
   /koa-compose/4.1.0:
     resolution: {integrity: sha512-8ODW8TrDuMYvXRwra/Kh7/rJo9BtOfPc6qO8eAfC80CnCvSjSl0bkRM24X6/XBBEyj0v1nRUQ1LyOy3dbqOWXw==}
     dev: false
 
-  /koa-convert/1.2.0:
-    resolution: {integrity: sha1-2kCHXfSd4FOQmNFwC1CCDOvNIdA=}
-    engines: {node: '>= 4'}
+  /koa-convert/2.0.0:
+    resolution: {integrity: sha512-asOvN6bFlSnxewce2e/DK3p4tltyfC4VM7ZwuTuepI7dEQVcvpyFuBcEARu1+Hxg8DIwytce2n7jrZtRlPrARA==}
+    engines: {node: '>= 10'}
     dependencies:
       co: 4.6.0
-      koa-compose: 3.2.1
+      koa-compose: 4.1.0
     dev: false
 
-  /koa/2.13.1:
-    resolution: {integrity: sha512-Lb2Dloc72auj5vK4X4qqL7B5jyDPQaZucc9sR/71byg7ryoD1NCaCm63CShk9ID9quQvDEi1bGR/iGjCG7As3w==}
+  /koa/2.13.3:
+    resolution: {integrity: sha512-XhXIoR+ylAwqG3HhXwnMPQAM/4xfywz52OvxZNmxmTWGGHsvmBv4NSIhURha6yMuvEex1WdtplUTHnxnKpQiGw==}
     engines: {node: ^4.8.4 || ^6.10.1 || ^7.10.1 || >= 8.1.4}
     dependencies:
       accepts: 1.3.7
@@ -1632,7 +1645,7 @@ packages:
       content-disposition: 0.5.3
       content-type: 1.0.4
       cookies: 0.8.0
-      debug: 3.1.0
+      debug: 4.3.2
       delegates: 1.0.0
       depd: 2.0.0
       destroy: 1.0.4
@@ -1643,13 +1656,15 @@ packages:
       http-errors: 1.8.0
       is-generator-function: 1.0.8
       koa-compose: 4.1.0
-      koa-convert: 1.2.0
+      koa-convert: 2.0.0
       on-finished: 2.3.0
       only: 0.0.2
       parseurl: 1.3.3
       statuses: 1.5.0
       type-is: 1.6.18
       vary: 1.1.2
+    transitivePeerDependencies:
+      - supports-color
     dev: false
 
   /light-my-request/4.4.1:
@@ -1810,6 +1825,12 @@ packages:
 
   /nanoid/3.1.25:
     resolution: {integrity: sha512-rdwtIXaXCLFAQbnfqDRnI6jaRHp9fTcYBjtFKE8eezcZ7LuLjhUaQGNeMXf1HmRoCH32CLz6XwX0TtxEOS/A3Q==}
+    engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
+    hasBin: true
+    dev: false
+
+  /nanoid/3.1.29:
+    resolution: {integrity: sha512-dW2pUSGZ8ZnCFIlBIA31SV8huOGCHb6OwzVCc7A69rb/a+SgPBwfmLvK5TKQ3INPbRkcI8a/Owo0XbiTNH19wg==}
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
     dev: false
@@ -1979,6 +2000,11 @@ packages:
     engines: {node: '>= 6'}
     dev: false
 
+  /object-hash/2.2.0:
+    resolution: {integrity: sha512-gScRMn0bS5fH+IuwyIFgnh9zBdo4DV+6GhygmWM9HyNJSgS0hScp1f5vjtm7oIIOiT9trXrShAkLFSc2IqKNgw==}
+    engines: {node: '>= 6'}
+    dev: false
+
   /object-inspect/1.9.0:
     resolution: {integrity: sha512-i3Bp9iTqwhaLZBxGkRfo5ZbE07BQRT7MGu8+nNgwW9ItGp1TzCTw2DLEoWwjClxBjOFI/hWljTAmYGCEwmtnOw==}
     dev: false
@@ -2016,21 +2042,21 @@ packages:
       serialize-javascript: 4.0.0
     dev: false
 
-  /oidc-provider/7.8.0:
-    resolution: {integrity: sha512-zwwSsXmJrtx3jcj8Eqs/w7M4DuMhHd+h8zoSmU29OTy8uGSqZXWPHUnh+t+osm73mWn2aNMXLR+3phNUbZYR2g==}
+  /oidc-provider/7.8.1:
+    resolution: {integrity: sha512-KMXQSQVYSVldXOzPUfe4oE0doDqaj0NCt/nGA/+mARZA4wjPKtLIJdIRBCl5lgZmVgQKIRw2y3kU/bb9dv++JA==}
     engines: {node: ^12.19.0 || ^14.15.0}
     dependencies:
       '@koa/cors': 3.1.0
-      cacheable-lookup: 6.0.0
-      debug: 4.3.1
-      ejs: 3.1.5
-      got: 11.8.1
-      jose: 3.12.2
+      cacheable-lookup: 6.0.3
+      debug: 4.3.2
+      ejs: 3.1.6
+      got: 11.8.2
+      jose: 3.20.1
       jsesc: 3.0.2
-      koa: 2.13.1
+      koa: 2.13.3
       koa-compose: 4.1.0
-      nanoid: 3.1.25
-      object-hash: 2.1.1
+      nanoid: 3.1.29
+      object-hash: 2.2.0
       oidc-token-hash: 5.0.1
       paseto2: /paseto/2.1.3
       quick-lru: 5.1.1
