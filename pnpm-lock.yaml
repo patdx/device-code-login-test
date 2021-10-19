@@ -7,7 +7,7 @@ specifiers:
   lodash: 4.17.21
   next: 11.1.2
   next-absolute-url: 1.2.2
-  next-connect: 0.10.2
+  next-connect: 0.11.0
   oidc-client: 1.11.5
   oidc-provider: 7.8.1
   openid-client: 4.9.1
@@ -22,7 +22,7 @@ dependencies:
   lodash: 4.17.21
   next: 11.1.2_react-dom@17.0.2+react@17.0.2
   next-absolute-url: 1.2.2
-  next-connect: 0.10.2
+  next-connect: 0.11.0
   oidc-client: 1.11.5
   oidc-provider: 7.8.1
   openid-client: 4.9.1
@@ -1833,8 +1833,8 @@ packages:
     resolution: {integrity: sha512-Z2+LZXQTthhw2je9u4eq8QWXxXd57a6b54x9exBfQX4Dct6YxaMjcXZWNLHd9AOlCue84EsMpdSGP7wACqUnPg==}
     dev: false
 
-  /next-connect/0.10.2:
-    resolution: {integrity: sha512-Tp9PA5YSg6aStF9TP+VmaQwvPH0tlO8VxzFP/oizD60aZwyqfK302J12V0VMlWnWJEQW5IPrblynI4bG193zwA==}
+  /next-connect/0.11.0:
+    resolution: {integrity: sha512-7VW5z9MWOpd8wnbST9dXgVd0c0V76LLLk5mBDYLSMtEC2dj3v3YF/Bl3t58cJrzm4SZ0e/s3yeD361F888u0yg==}
     dependencies:
       trouter: 3.1.0
     dev: false
