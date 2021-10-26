@@ -9,7 +9,7 @@ specifiers:
   next-absolute-url: 1.2.2
   next-connect: 0.11.0
   oidc-client: 1.11.5
-  oidc-provider: 7.8.1
+  oidc-provider: 7.9.0
   openid-client: 4.9.1
   prettier: 2.4.1
   react: 17.0.2
@@ -24,7 +24,7 @@ dependencies:
   next-absolute-url: 1.2.2
   next-connect: 0.11.0
   oidc-client: 1.11.5
-  oidc-provider: 7.8.1
+  oidc-provider: 7.9.0
   openid-client: 4.9.1
   react: 17.0.2
   react-dom: 17.0.2_react@17.0.2
@@ -1552,8 +1552,8 @@ packages:
       '@panva/asn1.js': 1.0.0
     dev: false
 
-  /jose/3.20.1:
-    resolution: {integrity: sha512-qAO8uCyyOfkpsAWL4U0O1ug/N8Y4OgYFMvIsvlhU1vcahUcvYkH1MOgN0JIr+XqR9O9A36NwCPju6sPHy8P6jg==}
+  /jose/4.1.2:
+    resolution: {integrity: sha512-1X2Lfm7myqavybkbgUyao/ocdCA9LPq0J60Miguasy7szHjViMkGadJ6Kx9WyWClgyTYQ7JPBGQ/fXuzqeZyTQ==}
     dev: false
 
   /js-tokens/4.0.0:
@@ -1793,12 +1793,6 @@ packages:
     resolution: {integrity: sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==}
     dev: false
 
-  /nanoid/3.1.25:
-    resolution: {integrity: sha512-rdwtIXaXCLFAQbnfqDRnI6jaRHp9fTcYBjtFKE8eezcZ7LuLjhUaQGNeMXf1HmRoCH32CLz6XwX0TtxEOS/A3Q==}
-    engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
-    hasBin: true
-    dev: false
-
   /nanoid/3.1.29:
     resolution: {integrity: sha512-dW2pUSGZ8ZnCFIlBIA31SV8huOGCHb6OwzVCc7A69rb/a+SgPBwfmLvK5TKQ3INPbRkcI8a/Owo0XbiTNH19wg==}
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
@@ -2007,16 +2001,16 @@ packages:
       serialize-javascript: 4.0.0
     dev: false
 
-  /oidc-provider/7.8.1:
-    resolution: {integrity: sha512-KMXQSQVYSVldXOzPUfe4oE0doDqaj0NCt/nGA/+mARZA4wjPKtLIJdIRBCl5lgZmVgQKIRw2y3kU/bb9dv++JA==}
-    engines: {node: ^12.19.0 || ^14.15.0}
+  /oidc-provider/7.9.0:
+    resolution: {integrity: sha512-t+NoQH5ObssFzmAVJSfbBbrY3Cqm5ZyK0HjaT/UA/xUjDY8HFUDPnkhltGAc+mp1yhuQv5VMCTWK5h2qS3yTHg==}
+    engines: {node: ^12.19.0 || ^14.15.0 || ^16.13.0}
     dependencies:
       '@koa/cors': 3.1.0
       cacheable-lookup: 6.0.3
       debug: 4.3.2
       ejs: 3.1.6
       got: 11.8.2
-      jose: 3.20.1
+      jose: 4.1.2
       jsesc: 3.0.2
       koa: 2.13.3
       koa-compose: 4.1.0
@@ -2207,7 +2201,7 @@ packages:
     engines: {node: ^10 || ^12 || >=14}
     dependencies:
       colorette: 1.2.2
-      nanoid: 3.1.25
+      nanoid: 3.1.29
       source-map: 0.6.1
     dev: false
 
