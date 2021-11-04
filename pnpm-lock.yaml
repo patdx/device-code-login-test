@@ -9,7 +9,7 @@ specifiers:
   next-absolute-url: 1.2.2
   next-connect: 0.11.0
   oidc-client: 1.11.5
-  oidc-provider: 7.9.0
+  oidc-provider: 7.10.0
   openid-client: 5.0.2
   prettier: 2.4.1
   react: 17.0.2
@@ -24,7 +24,7 @@ dependencies:
   next-absolute-url: 1.2.2
   next-connect: 0.11.0
   oidc-client: 1.11.5
-  oidc-provider: 7.9.0
+  oidc-provider: 7.10.0
   openid-client: 5.0.2
   react: 17.0.2
   react-dom: 17.0.2_react@17.0.2
@@ -1552,6 +1552,10 @@ packages:
     resolution: {integrity: sha512-1X2Lfm7myqavybkbgUyao/ocdCA9LPq0J60Miguasy7szHjViMkGadJ6Kx9WyWClgyTYQ7JPBGQ/fXuzqeZyTQ==}
     dev: false
 
+  /jose/4.1.4:
+    resolution: {integrity: sha512-iCCOrCZuG+BjP3SsjTmJtgFZey1hwHMUqv9nBqFkdJtJ/jd193QgCl/u339IdyS+2opUklON+9VzGzmKaudsfg==}
+    dev: false
+
   /js-tokens/4.0.0:
     resolution: {integrity: sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==}
     dev: false
@@ -1964,8 +1968,8 @@ packages:
       serialize-javascript: 4.0.0
     dev: false
 
-  /oidc-provider/7.9.0:
-    resolution: {integrity: sha512-t+NoQH5ObssFzmAVJSfbBbrY3Cqm5ZyK0HjaT/UA/xUjDY8HFUDPnkhltGAc+mp1yhuQv5VMCTWK5h2qS3yTHg==}
+  /oidc-provider/7.10.0:
+    resolution: {integrity: sha512-idZ+GJ9bPhMplhD5Ol7yIZJC6xVpmyLtxRYyrPhN7hw3sa6u3lN9McLBodZSVmZiqID1Deq8NUd5XmemaBq92g==}
     engines: {node: ^12.19.0 || ^14.15.0 || ^16.13.0}
     dependencies:
       '@koa/cors': 3.1.0
@@ -1973,7 +1977,7 @@ packages:
       debug: 4.3.2
       ejs: 3.1.6
       got: 11.8.2
-      jose: 4.1.2
+      jose: 4.1.4
       jsesc: 3.0.2
       koa: 2.13.3
       koa-compose: 4.1.0
