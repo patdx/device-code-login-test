@@ -12,7 +12,7 @@
     "express": "4.17.3",
     "fastify": "3.27.1",
     "lodash": "4.17.21",
-    "next": "12.0.10",
+    "next": "12.1.0",
     "next-absolute-url": "1.2.2",
     "next-connect": "0.12.1",
     "oidc-client": "1.11.5",
