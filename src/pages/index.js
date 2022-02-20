@@ -52,13 +52,12 @@ export default function Login({
   // }, []);
 
   return (
-    <Fragment>
+    <div class="p-2 prose mx-auto">
       <p>
         <a href={verification_uri_complete} target="_blank">
           Click here to sign in.
         </a>
       </p>
-
       <p>
         Or, go to{' '}
         <a href={verification_uri} target="_blank">
@@ -66,14 +65,13 @@ export default function Login({
         </a>{' '}
         and enter code <strong>{user_code}</strong>
       </p>
-
       <p>
         Configuration:{' '}
         <a href="/oidc/.well-known/openid-configuration">
           /oidc/.well-known/openid-configuration
         </a>
       </p>
-    </Fragment>
+    </div>
   );
 }
 

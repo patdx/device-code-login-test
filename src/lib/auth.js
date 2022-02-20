@@ -9,7 +9,7 @@ import absoluteUrl from 'next-absolute-url';
 export const getProvider = memoize((url) => {
   console.log(`Initialize provider for url ${url}`);
 
-  const provider =  new Provider(url, {
+  const provider = new Provider(url, {
     interactions: {
       // TODO: set devInteractions to false to enable this
       url: (ctx, interaction) => {
@@ -29,9 +29,9 @@ export const getProvider = memoize((url) => {
         // successSource,
         // userCodeConfirmSource,
       },
-      devInteractions: {
-        enabled: true,
-      },
+      // devInteractions: {
+      //   enabled: false,
+      // },
     },
     formats: {
       AccessToken: 'jwt',
@@ -67,19 +67,21 @@ export const getProvider = memoize((url) => {
 export const getProviderForReq = (req) => {
   const { origin } = absoluteUrl(req);
   const provider = getProvider(origin);
-  return provider;
+  const callback = provider.callback();
+  return { provider, callback };
 };
 
 export const authHandler = async (req, res) => {
-  const provider = getProviderForReq(req);
-  // console.log('init', req, res);
+  const { provider, callback } = getProviderForReq(req);
+
+  // console.log('init', req.url, res);
 
   req.originalUrl = req.url;
   req.url = req.url.replace('/oidc', '');
 
   await new Promise((resolve) => {
     res.on('finish', resolve);
-    provider.callback(req, res);
+    callback(req, res);
   });
 
   req.url = req.url.replace('/', '/oidc');
