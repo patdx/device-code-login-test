@@ -14,7 +14,7 @@ specifiers:
   oidc-provider: 7.10.6
   openid-client: 5.1.4
   postcss: 8.4.11
-  prettier: 2.5.1
+  prettier: 2.6.0
   react: 17.0.2
   react-dom: 17.0.2
   tailwindcss: 3.0.23
@@ -37,7 +37,7 @@ devDependencies:
   '@tailwindcss/typography': 0.5.2_tailwindcss@3.0.23
   autoprefixer: 10.4.3_postcss@8.4.11
   postcss: 8.4.11
-  prettier: 2.5.1
+  prettier: 2.6.0
   tailwindcss: 3.0.23_autoprefixer@10.4.3
 
 packages:
@@ -1595,8 +1595,8 @@ packages:
       source-map-js: 1.0.2
     dev: false
 
-  /prettier/2.5.1:
-    resolution: {integrity: sha512-vBZcPRUR5MZJwoyi3ZoyQlc1rXeEck8KgeC9AwwOn+exuxLxq5toTRDTSaVrXHxelDMHy9zlicw8u66yxoSUFg==}
+  /prettier/2.6.0:
+    resolution: {integrity: sha512-m2FgJibYrBGGgQXNzfd0PuDGShJgRavjUoRCw1mZERIWVSXF0iLzLm+aOqTAbLnC3n6JzUhAA8uZnFVghHJ86A==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true
