@@ -8,7 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
-    "@types/lodash": "4.14.180",
+    "@types/lodash": "4.14.181",
     "express": "4.17.3",
     "fastify": "3.27.4",
     "lodash": "4.17.21",
