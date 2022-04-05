@@ -5,7 +5,7 @@ specifiers:
   '@types/lodash': 4.14.181
   autoprefixer: 10.4.4
   express: 4.17.3
-  fastify: 3.27.4
+  fastify: 3.28.0
   lodash: 4.17.21
   next: 12.1.4
   next-absolute-url: 1.2.2
@@ -22,7 +22,7 @@ specifiers:
 dependencies:
   '@types/lodash': 4.14.181
   express: 4.17.3
-  fastify: 3.27.4
+  fastify: 3.28.0
   lodash: 4.17.21
   next: 12.1.4_react-dom@18.0.0+react@18.0.0
   next-absolute-url: 1.2.2
@@ -823,8 +823,8 @@ packages:
     deprecated: This module renamed to process-warning
     dev: false
 
-  /fastify/3.27.4:
-    resolution: {integrity: sha512-SOfnHBxG9zxCSIvt6aHoR/cao8QBddWmGP/mb5KQKRc+KI1kB7b79M2hCDOTSyHdLAF2OX+oI6X3weeLc+MqKg==}
+  /fastify/3.28.0:
+    resolution: {integrity: sha512-LAQtGllpkRe8L6Tpf3zdbvXzXFOrgaWV3Tbvp3xMv9ngcr9zht9U2/mo5zq9qp9kplSiBJ0w43aVAMqv6PBMbw==}
     dependencies:
       '@fastify/ajv-compiler': 1.1.0
       abstract-logging: 2.0.1
