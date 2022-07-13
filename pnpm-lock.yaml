@@ -5,7 +5,7 @@ specifiers:
   '@types/lodash': 4.14.182
   autoprefixer: 10.4.7
   express: 4.18.1
-  fastify: 3.29.0
+  fastify: 3.29.1
   lodash: 4.17.21
   next: 12.1.6
   next-absolute-url: 1.2.2
@@ -22,7 +22,7 @@ specifiers:
 dependencies:
   '@types/lodash': 4.14.182
   express: 4.18.1
-  fastify: 3.29.0
+  fastify: 3.29.1
   lodash: 4.17.21
   next: 12.1.6_ef5jwxihqo6n7gxfmzogljlgcm
   next-absolute-url: 1.2.2
@@ -303,7 +303,7 @@ packages:
     dev: true
 
   /archy/1.0.0:
-    resolution: {integrity: sha1-+cjBN1fMHde8N5rHeyxipcKGjEA=}
+    resolution: {integrity: sha512-Xg+9RwCg/0p32teKdGMPTPnVXKD0w3DfHnFTficozsAgsvq2XenPJq/MYpzzQ/v8zrOyJn6Ds39VA4JIDwFfqw==}
     dev: false
 
   /arg/5.0.1:
@@ -783,8 +783,8 @@ packages:
     deprecated: This module renamed to process-warning
     dev: false
 
-  /fastify/3.29.0:
-    resolution: {integrity: sha512-zXSiDTdHJCHcmDrSje1f1RfzTmUTjMtHnPhh6cdokgfHhloQ+gy0Du+KlEjwTbcNC3Djj4GAsBzl6KvfI9Ah2g==}
+  /fastify/3.29.1:
+    resolution: {integrity: sha512-UhGmh0/J0YQetqULYfv/utvut0R6ICQvO6Oh81JvG75UbjVgueqoE6EPChB3gR5aF3dVKpT/qFTgc7zvpGTYNg==}
     dependencies:
       '@fastify/ajv-compiler': 1.1.0
       '@fastify/error': 2.0.0
@@ -1940,7 +1940,7 @@ packages:
     dev: false
 
   /util-deprecate/1.0.2:
-    resolution: {integrity: sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8=}
+    resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
 
   /utils-merge/1.0.1:
     resolution: {integrity: sha1-n5VxD1CiZ5R7LMwSR0HBAoQn5xM=}
