@@ -15,8 +15,8 @@ specifiers:
   openid-client: 5.1.8
   postcss: 8.4.13
   prettier: 2.6.2
-  react: 18.1.0
-  react-dom: 18.1.0
+  react: 18.2.0
+  react-dom: 18.2.0
   tailwindcss: 3.0.24
 
 dependencies:
@@ -24,14 +24,14 @@ dependencies:
   express: 4.18.1
   fastify: 3.29.1
   lodash: 4.17.21
-  next: 12.2.2_ef5jwxihqo6n7gxfmzogljlgcm
+  next: 12.2.2_biqbaboplfbrettd7655fr4n2y
   next-absolute-url: 1.2.2
   next-connect: 0.12.2
   oidc-client: 1.11.5
   oidc-provider: 7.11.1
   openid-client: 5.1.8
-  react: 18.1.0
-  react-dom: 18.1.0_react@18.1.0
+  react: 18.2.0
+  react-dom: 18.2.0_react@18.2.0
 
 devDependencies:
   '@tailwindcss/typography': 0.5.4_tailwindcss@3.0.24
@@ -1299,7 +1299,7 @@ packages:
       trouter: 3.2.0
     dev: false
 
-  /next/12.2.2_ef5jwxihqo6n7gxfmzogljlgcm:
+  /next/12.2.2_biqbaboplfbrettd7655fr4n2y:
     resolution: {integrity: sha512-zAYFY45aBry/PlKONqtlloRFqU/We3zWYdn2NoGvDZkoYUYQSJC8WMcalS5C19MxbCZLUVCX7D7a6gTGgl2yLg==}
     engines: {node: '>=12.22.0'}
     hasBin: true
@@ -1321,10 +1321,10 @@ packages:
       '@swc/helpers': 0.4.2
       caniuse-lite: 1.0.30001335
       postcss: 8.4.5
-      react: 18.1.0
-      react-dom: 18.1.0_react@18.1.0
-      styled-jsx: 5.0.2_react@18.1.0
-      use-sync-external-store: 1.1.0_react@18.1.0
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+      styled-jsx: 5.0.2_react@18.2.0
+      use-sync-external-store: 1.1.0_react@18.2.0
     optionalDependencies:
       '@next/swc-android-arm-eabi': 12.2.2
       '@next/swc-android-arm64': 12.2.2
@@ -1644,18 +1644,18 @@ packages:
       unpipe: 1.0.0
     dev: false
 
-  /react-dom/18.1.0_react@18.1.0:
-    resolution: {integrity: sha512-fU1Txz7Budmvamp7bshe4Zi32d0ll7ect+ccxNu9FlObT605GOEB8BfO4tmRJ39R5Zj831VCpvQ05QPBW5yb+w==}
+  /react-dom/18.2.0_react@18.2.0:
+    resolution: {integrity: sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g==}
     peerDependencies:
-      react: ^18.1.0
+      react: ^18.2.0
     dependencies:
       loose-envify: 1.4.0
-      react: 18.1.0
-      scheduler: 0.22.0
+      react: 18.2.0
+      scheduler: 0.23.0
     dev: false
 
-  /react/18.1.0:
-    resolution: {integrity: sha512-4oL8ivCz5ZEPyclFQXaNksK3adutVS8l2xzZU0cqEFrE9Sb7fC0EFK5uEk74wIreL1DERyjvsU915j1pcT2uEQ==}
+  /react/18.2.0:
+    resolution: {integrity: sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==}
     engines: {node: '>=0.10.0'}
     dependencies:
       loose-envify: 1.4.0
@@ -1734,8 +1734,8 @@ packages:
     resolution: {integrity: sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==}
     dev: false
 
-  /scheduler/0.22.0:
-    resolution: {integrity: sha512-6QAm1BgQI88NPYymgGQLCZgvep4FyePDWFpXVK+zNSUgHwlqpJy8VEh8Et0KxTACS4VWwMousBElAZOH9nkkoQ==}
+  /scheduler/0.23.0:
+    resolution: {integrity: sha512-CtuThmgHNg7zIZWAXi3AsyIzA3n4xx7aNyjwC2VJldO2LMVDhFK+63xGqq6CsJH4rTAt6/M+N4GhZiDYPx9eUw==}
     dependencies:
       loose-envify: 1.4.0
     dev: false
@@ -1846,7 +1846,7 @@ packages:
       safe-buffer: 5.2.1
     dev: false
 
-  /styled-jsx/5.0.2_react@18.1.0:
+  /styled-jsx/5.0.2_react@18.2.0:
     resolution: {integrity: sha512-LqPQrbBh3egD57NBcHET4qcgshPks+yblyhPlH2GY8oaDgKs8SK4C3dBh3oSJjgzJ3G5t1SYEZGHkP+QEpX9EQ==}
     engines: {node: '>= 12.0.0'}
     peerDependencies:
@@ -1859,7 +1859,7 @@ packages:
       babel-plugin-macros:
         optional: true
     dependencies:
-      react: 18.1.0
+      react: 18.2.0
     dev: false
 
   /supports-color/5.5.0:
@@ -1961,12 +1961,12 @@ packages:
       punycode: 2.1.1
     dev: false
 
-  /use-sync-external-store/1.1.0_react@18.1.0:
+  /use-sync-external-store/1.1.0_react@18.2.0:
     resolution: {integrity: sha512-SEnieB2FPKEVne66NpXPd1Np4R1lTNKfjuy3XdIoPQKYBAFdzbzSZlSn1KJZUiihQLQC5Znot4SBz1EOTBwQAQ==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
     dependencies:
-      react: 18.1.0
+      react: 18.2.0
     dev: false
 
   /util-deprecate/1.0.2:

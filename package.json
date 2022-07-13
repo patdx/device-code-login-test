@@ -18,8 +18,8 @@
     "oidc-client": "1.11.5",
     "oidc-provider": "7.11.1",
     "openid-client": "5.1.8",
-    "react": "18.1.0",
-    "react-dom": "18.1.0"
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
   },
   "devDependencies": {
     "@tailwindcss/typography": "0.5.4",
