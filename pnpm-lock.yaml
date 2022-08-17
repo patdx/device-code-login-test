@@ -5,7 +5,7 @@ specifiers:
   '@types/lodash': 4.14.183
   autoprefixer: 10.4.8
   express: 4.18.1
-  fastify: 4.4.0
+  fastify: 4.5.0
   lodash: 4.17.21
   next: 12.2.5
   next-absolute-url: 1.2.2
@@ -22,7 +22,7 @@ specifiers:
 dependencies:
   '@types/lodash': 4.14.183
   express: 4.18.1
-  fastify: 4.4.0
+  fastify: 4.5.0
   lodash: 4.17.21
   next: 12.2.5_biqbaboplfbrettd7655fr4n2y
   next-absolute-url: 1.2.2
@@ -38,7 +38,7 @@ devDependencies:
   autoprefixer: 10.4.8_postcss@8.4.16
   postcss: 8.4.16
   prettier: 2.7.1
-  tailwindcss: 3.1.8
+  tailwindcss: 3.1.8_postcss@8.4.16
 
 packages:
 
@@ -239,7 +239,7 @@ packages:
       lodash.castarray: 4.4.0
       lodash.isplainobject: 4.0.6
       lodash.merge: 4.6.2
-      tailwindcss: 3.1.8
+      tailwindcss: 3.1.8_postcss@8.4.16
     dev: true
 
   /@types/cacheable-request/6.0.1:
@@ -802,8 +802,8 @@ packages:
     resolution: {integrity: sha512-qKRta6N7BWEFVlyonVY/V+BMLgFqktCUV0QjT259ekAIlbVrMaFnFLxJ4s/JPl4tou56S1BzPufI60bLe29fHA==}
     dev: false
 
-  /fastify/4.4.0:
-    resolution: {integrity: sha512-ePI4g9vPJXIBF4YlVcDSLxjvtdTrlM8QzdgYAPFGdCH+rot+4MXoFFAUb10fGrIcRRjaq6CvcbIzxiWQzMMHkw==}
+  /fastify/4.5.0:
+    resolution: {integrity: sha512-21DEAqgFniJhgKPiJ0dIzSMrnl9X3bE14/jK2y8EcIy3GLBrjUhqFvIb8cayOrks2eenssVaUhUgMX1t2i4H5g==}
     dependencies:
       '@fastify/ajv-compiler': 3.1.2
       '@fastify/error': 3.0.0
@@ -1901,10 +1901,12 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
-  /tailwindcss/3.1.8:
+  /tailwindcss/3.1.8_postcss@8.4.16:
     resolution: {integrity: sha512-YSneUCZSFDYMwk+TGq8qYFdCA3yfBRdBlS7txSq0LUmzyeqRe3a8fBQzbz9M3WS/iFT4BNf/nmw9mEzrnSaC0g==}
     engines: {node: '>=12.13.0'}
     hasBin: true
+    peerDependencies:
+      postcss: ^8.0.9
     dependencies:
       arg: 5.0.2
       chokidar: 3.5.3
