@@ -3,7 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@tailwindcss/typography': 0.5.7
   '@types/lodash': 4.14.185
-  autoprefixer: 10.4.10
+  autoprefixer: 10.4.11
   express: 4.18.1
   fastify: 4.6.0
   lodash: 4.17.21
@@ -35,7 +35,7 @@ dependencies:
 
 devDependencies:
   '@tailwindcss/typography': 0.5.7_tailwindcss@3.1.8
-  autoprefixer: 10.4.10_postcss@8.4.16
+  autoprefixer: 10.4.11_postcss@8.4.16
   postcss: 8.4.16
   prettier: 2.7.1
   tailwindcss: 3.1.8_postcss@8.4.16
@@ -367,8 +367,8 @@ packages:
     engines: {node: '>=8.0.0'}
     dev: false
 
-  /autoprefixer/10.4.10_postcss@8.4.16:
-    resolution: {integrity: sha512-nMaiDARyp1e74c8IeAXkr+BmFKa8By4Zak7tyaNPF09Iu39WFpNXOWrVirmXjKr+5cOyERwvtbMOLYz6iBJYgQ==}
+  /autoprefixer/10.4.11_postcss@8.4.16:
+    resolution: {integrity: sha512-5lHp6DgRodxlBLSkzHOTcufWFflH1ewfy2hvFQyjrblBFlP/0Yh4O/Wrg4ow8WRlN3AAUFFLAQwX8hTptzqVHg==}
     engines: {node: ^10 || ^12 || >=14}
     hasBin: true
     peerDependencies:
