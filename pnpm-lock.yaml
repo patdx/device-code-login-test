@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@tailwindcss/typography': 0.5.8
-  '@types/lodash': 4.14.189
+  '@types/lodash': 4.14.190
   autoprefixer: 10.4.13
   express: 4.18.2
   fastify: 4.10.0
@@ -20,7 +20,7 @@ specifiers:
   tailwindcss: 3.2.4
 
 dependencies:
-  '@types/lodash': 4.14.189
+  '@types/lodash': 4.14.190
   express: 4.18.2
   fastify: 4.10.0
   lodash: 4.17.21
@@ -262,8 +262,8 @@ packages:
       '@types/node': 14.14.20
     dev: false
 
-  /@types/lodash/4.14.189:
-    resolution: {integrity: sha512-kb9/98N6X8gyME9Cf7YaqIMvYGnBSWqEci6tiettE6iJWH1XdJz/PO8LB0GtLCG7x8dU3KWhZT+lA1a35127tA==}
+  /@types/lodash/4.14.190:
+    resolution: {integrity: sha512-5iJ3FBJBvQHQ8sFhEhJfjUP+G+LalhavTkYyrAYqz5MEJG+erSv0k9KJLb6q7++17Lafk1scaTIFXcMJlwK8Mw==}
     dev: false
 
   /@types/node/14.14.20:
