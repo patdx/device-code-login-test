@@ -12,7 +12,7 @@ specifiers:
   next-connect: 0.13.0
   oidc-client: 1.11.5
   oidc-provider: 8.0.0
-  openid-client: 5.3.0
+  openid-client: 5.3.1
   postcss: 8.4.19
   prettier: 2.8.0
   react: 18.2.0
@@ -29,7 +29,7 @@ dependencies:
   next-connect: 0.13.0
   oidc-client: 1.11.5
   oidc-provider: 8.0.0
-  openid-client: 5.3.0
+  openid-client: 5.3.1
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
 
@@ -1044,10 +1044,6 @@ packages:
       minimatch: 3.0.4
     dev: false
 
-  /jose/4.10.3:
-    resolution: {integrity: sha512-3S4wQnaoJKSAx9uHSoyf8B/lxjs1qCntHWL6wNFszJazo+FtWe+qD0zVfY0BlqJ5HHK4jcnM98k3BQzVLbzE4g==}
-    dev: false
-
   /jose/4.11.1:
     resolution: {integrity: sha512-YRv4Tk/Wlug8qicwqFNFVEZSdbROCHRAC6qu/i0dyNKr5JQdoa2pIGoS04lLO/jXQX7Z9omoNewYIVIxqZBd9Q==}
     dev: false
@@ -1404,10 +1400,10 @@ packages:
     resolution: {integrity: sha512-Fvw+Jemq5fjjyWz6CpKx6w9s7xxqo3+JCyM0WXWeCSOboZ8ABkyvP8ID4CZuChA/wxSx+XSJmdOm8rGVyJ1hdQ==}
     dev: false
 
-  /openid-client/5.3.0:
-    resolution: {integrity: sha512-SykPCeZBZ/SxiBH5AWynvFUIDX3//2pgwc/3265alUmGHeCN03+X8uP+pHOVnCXCKfX/XOhO90qttAQ76XcGxA==}
+  /openid-client/5.3.1:
+    resolution: {integrity: sha512-RLfehQiHch9N6tRWNx68cicf3b1WR0x74bJWHRc25uYIbSRwjxYcTFaRnzbbpls5jroLAaB/bFIodTgA5LJMvw==}
     dependencies:
-      jose: 4.10.3
+      jose: 4.11.1
       lru-cache: 6.0.0
       object-hash: 2.2.0
       oidc-token-hash: 5.0.1
