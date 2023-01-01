@@ -5,7 +5,7 @@ specifiers:
   '@types/lodash': 4.14.191
   autoprefixer: 10.4.13
   express: 4.18.2
-  fastify: 4.10.2
+  fastify: 4.11.0
   lodash: 4.17.21
   next: 13.1.1
   next-absolute-url: 1.2.2
@@ -22,7 +22,7 @@ specifiers:
 dependencies:
   '@types/lodash': 4.14.191
   express: 4.18.2
-  fastify: 4.10.2
+  fastify: 4.11.0
   lodash: 4.17.21
   next: 13.1.1_biqbaboplfbrettd7655fr4n2y
   next-absolute-url: 1.2.2
@@ -775,8 +775,8 @@ packages:
     resolution: {integrity: sha512-qKRta6N7BWEFVlyonVY/V+BMLgFqktCUV0QjT259ekAIlbVrMaFnFLxJ4s/JPl4tou56S1BzPufI60bLe29fHA==}
     dev: false
 
-  /fastify/4.10.2:
-    resolution: {integrity: sha512-0T+4zI6N3S8ex0LCZi3H4FasJR4AzWw834fUkPWvV8r6GBJkLmAOfFxH8f5V29Plef24IK0QSQD/tz1Nx+1UOA==}
+  /fastify/4.11.0:
+    resolution: {integrity: sha512-JteZ8pjEqd+6n+azQnQfSJV8MUMxAmxbvC2Dx/Mybj039Lf/u3kda9Kq84uy/huCpqCzZoyHIZS5JFGF3wLztw==}
     dependencies:
       '@fastify/ajv-compiler': 3.3.1
       '@fastify/error': 3.0.0
